@@ -1,0 +1,212 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mittal Universal</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/extra.css">
+    <link href='favicon.ico' rel='icon' type="image/x-icon" />
+    <link href='favicon.ico' rel='shortcut icon' type="image/x-icon" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    
+    <script type="text/javascript">
+    $(window).load(function(){
+      
+      var view = $("#content");
+      var move = "500px";
+      var sliderLimit = -450
+      
+      $("#rightArrow").click(function(){
+          
+          var currentPosition = parseInt(view.css("left"));
+          if (currentPosition >= sliderLimit) view.stop(false,true).animate({left:"-="+move},{ duration: 400})
+      
+      });
+      
+      $("#leftArrow").click(function(){
+      
+          var currentPosition = parseInt(view.css("left"));
+          if (currentPosition < 0) view.stop(false,true).animate({left:"+="+move},{ duration: 400})
+      
+      });
+      
+      });
+    </script>
+  </head>
+  <body style="background-color: #262626;">
+    <div class="grid-x grid-padding-x">
+          <!--menu-->
+            <div class="menufl">
+              <div class="grid-x grid-padding-x">
+              <div class="large-2 medium-2 cell">
+              <div class="top-bar-title">
+                <span data-responsive-toggle="responsive-menu" class="mobm" data-hide-for="medium">
+                  <button class="menu-icon" type="button" data-toggle></button>
+                </span>
+                  <a href="index.html"><img src="img/mittal-universal1.png" class="logopad"/></a>
+              </div>
+              </div>
+              <div class="large-10 medium-10 menumar cell">
+              <div id="responsive-menu">
+                <div class="top-bar-right">
+                  <ul class="dropdown vertical medium-horizontal menu" data-responsive-menu="accordion medium-dropdown" data-auto-height="true" data-animate-height="true">
+                    <li><a href="index.html" class="menua">HOME</a></li>
+                    <li><a href="about-us.html" class="menua">ABOUT US</a></li>
+                    <li class="is-dropdown-submenu-parent opens-right">
+                      <a href="#" class="menua">PROJECTS</a>
+                      <ul class="menu">
+                        <li>
+                          <a href="mumbai-residential.html" class="menuol">MUMBAI</a>
+                        </li>
+                        <li>
+                          <a href="bangalore-residential.html" class="menuol">BENGALURU</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><a href="past-projects.html" class="menuaselected">PAST PROJECTS</a></li>
+                    <li><a href="csr.html" class="menua">CSR</a></li>
+                    <li><a href="contact.html" class="menua">CONTACT</a></li>
+                  </ul>
+                </div>
+              </div>
+              </div>
+            </div>
+              </div>
+          <!--menu-->
+        
+          <!-- Past Projects-->
+        <div class="grid-container pastproject" style="overflow-y: hidden;
+        overflow-x: hidden;  ">
+        <div id="rightArrow">></div>
+          <div id="leftArrow"><</div>
+            <div class="grid-x grid-padding-x">
+                <div class="row">
+    <div class="large-12 columns" id="content" style="position:relative; left:0px;">
+        <div class="ppnext">
+                <h4 style="font-weight: bold; margin-bottom: 30px;">RESIDENTIAL</h4>
+                    <p class="pastprojectp">
+                    <span class="pastprojectred">ALTAMOUNT ROAD</span><br>
+Kailash Niketan<br><br>
+<span class="pastprojectred">BORIVALI</span><br>
+Vasundhara Apartments<br><br>
+<span class="pastprojectred">CUFFE PARADE</span><br>
+Ameeta Apartments<br>
+Sunita Apartments<br><br>
+<span class="pastprojectred">GAMADIA ROAD</span><br>
+Waves<br><br>
+<span class="pastprojectred">GRANT ROAD</span><br>
+Juthika<br>
+                    </p>
+                </div>
+                <div class="ppnext2">
+                    <p class="pastprojectp">
+                        <span class="pastprojectred">JUHU</span><br>
+Mittal Ruia Park<br>
+Mittal Paradise<br>
+Megh Apartments<br>
+Mittal Ocean View<br>
+Jal Darshan<br>
+Beach Heaven<br>
+Palm Beach<br>
+Oyster Cell<br><br>
+                        <span class="pastprojectred">KEMP'S CORNER</span><br>
+Dhanvatari Apartments<br><br>
+    <span class="pastprojectred">MAHALAXMI</span><br>
+Sheela Apartments<br><br>
+    <span class="pastprojectred">MAHIM</span><br>
+Makrand Co-op. Society<br>
+Judhika<br>
+Sushila Sadan<br>
+                    </p>
+                </div>
+                <div class="ppnext2">
+                    <p class="pastprojectp">
+                        <span class="pastprojectred">MALAD</span><br>
+Malad Co-op. Society<br>
+Deep<br>
+Dhiraj Apartments<br>
+Sujata Apartments<br>
+Rahul Apartments<br>
+Ashwin<br><br>
+                        <span class="pastprojectred">MARINE DRIVE</span><br>
+Shanti Niketan<br>
+Raj Hans Bhadrikeshwar<br><br>
+                        <span class="pastprojectred">MATUNGA</span><br>
+Hirabaug Raj Niketan<br>
+Kamala Sadan<br><br>
+                        <span class="pastprojectred">NEPEAN SEA ROAD</span><br>
+Dariya Mahal<br>
+Sagar Kunj<br>
+Nepean House<br>
+Bhaveshwar<br>
+                    </p>
+                </div>
+                <div class="ppnext2">
+                    <p class="pastprojectp">
+                        <span class="pastprojectred">KING CIRCLE</span><br>
+Veena Vihar<br><br>
+                        <span class="pastprojectred">PEDDAR ROAD</span><br>
+Mount Unique<br>
+Everest<br>
+Himgiri<br>
+Sunita Apartments<br>
+Shanti Apartments<br>
+Mittal Bhavan<br> 
+Padam Tekedi<br>
+Kapadia Building<br><br>
+                        <span class="pastprojectred">THANE</span><br>
+Pereira Nagar<br>
+Prakriti Apartments<br>
+Paridhi Apartments<br>
+Geeta<br>
+Ganesh Villa<br>
+Pratap<br>
+Pitamber<br>
+Minal Chhaya<br>
+                    </p>
+                </div>
+        <div class="ppnext">
+                <h4 style="font-weight: bold; margin-bottom: 30px;">COMMERCIAL</h4>
+                    <p class="pastprojectp">
+                        <span class="pastprojectred">ANDHERI</span><br>
+Mittal Industrial Estate<br><br>
+                        <span class="pastprojectred">NARIMAN POINT</span><br>
+Bajaj Bhavan<br>
+
+Mittal Chambers<br>
+
+Mittal Court<br>
+
+Mittal Tower<br>
+                    </p>
+                </div>
+    </div>
+</div>          
+            </div>
+            
+        </div>
+        <div class="grid-container" style="width:77%;">
+            <div class="grid-x grid-padding-x">
+                <div class="large-12 cell" style="margin-top: 10px; font-weight: bold;">
+                    <a href="past-projects.html" class="menuproselected">MUMBAI</a>
+                    <a href="past-projects-pune.html" class="menupro">PUNE</a>
+                    <a href="past-projects-bangalore.html" class="menupro">BANGALORE</a>
+                    <a href="past-projects-delhi.html" class="menupro">DELHI</a>
+                    <a href="past-projects-other-cities.html" class="menupro">OTHER CITIES</a><br><br><br>
+                </div>
+            </div>
+        </div>
+        <!-- Past Projects-->
+      </div>
+      
+      
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

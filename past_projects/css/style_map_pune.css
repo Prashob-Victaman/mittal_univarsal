@@ -1,0 +1,2204 @@
+/* CSS Document */
+@font-face {
+    font-family: 'Swis721LtBTLight';
+    src: url('swz721l-webfont.eot');
+    src: url('swz721l-webfont.eot?#iefix') format('embedded-opentype'),
+         url('swz721l-webfont.woff') format('woff'),
+         url('swz721l-webfont.ttf') format('truetype'),
+         url('swz721l-webfont.svg#Swis721LtBTLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Swis721BTRoman';
+    src: url('swz721n-webfont.eot');
+    src: url('swz721n-webfont.eot?#iefix') format('embedded-opentype'),
+         url('swz721n-webfont.woff') format('woff'),
+         url('swz721n-webfont.ttf') format('truetype'),
+         url('swz721n-webfont.svg#Swis721BTRoman') format('svg');
+
+}
+body {
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+	/*background:url(../img/progress.gif) center no-repeat;*/
+	}
+html {
+	width:100%;
+	height:100%;
+	}
+	
+#wrap {
+	width:100%;
+	height:100%;
+	}	
+#main {
+	width:100%;
+	height:100%;
+	}
+	
+#logo {
+	width:100%;
+	height:116px;
+	}	
+	
+#menu_my {
+	width:592px;
+	height:20px;
+	float:right;
+	background-color:#000;
+	margin:0 0 0 0;
+	}
+	
+#menu_my1 {
+	width:592px;
+	height:20px;
+	float:right;
+	background-color:#000;
+	margin:116px 0 0 0;
+	z-index:99;
+	position:absolute;
+	right:0;
+	}
+		
+#tab1 {
+	width:72px;
+	height:22px;
+	float:left
+	}
+	
+#tab2 {
+	width:70px;
+	height:22px;
+	float:left
+	}	
+
+#tab3 {
+	width:92px;
+	height:22px;
+	float:left
+	}
+
+#tab4 {
+	width:124px;
+	height:22px;
+	float:left
+	}	
+
+#tab5 {
+	width:90px;
+	height:22px;
+	float:left
+	}	
+	
+#tab5_social {
+	width:138px;
+	height:22px;
+	float:left
+	}	
+	
+#sub_tab_main1 {
+	width:553px;
+	height:22px;
+	float:right;
+	background-color:#5b5b5b;
+	margin:0 302px 0 0;
+	/*visibility:hidden;*/
+	border-top:1px solid #FFF;
+	right:0;
+	position:fixed;
+	display:none;
+	}
+#sub_tab_main1a {
+	width:414px;
+	height:22px;
+	float:right;
+	background-color:#5b5b5b;
+	margin:0 309px 0 0;
+	/*visibility:hidden;*/
+	border-top:1px solid #FFF;
+	right:0;
+	position:fixed;
+	display:none;
+	}
+
+#button_mask {
+	width: 100%;
+	height:22px;
+	position: absolute;
+	z-index:10000;
+	left: 4px;
+	/*top: 257px;*/
+	background-color:#C00;
+	}
+	
+/*** yogesh updated existing class and added new class for wrapper added on page ***/	
+#page-wrapper{position:absolute; top: 50%; left:0; width:100%;  margin-top: -200px;}
+#menuwrapper{position:relative; left: 50%; width: 453px; top:30px; z-index:2}
+#sub_tab_main2 {width:453px; height:22px; float:left; background:#5b5b5b; margin-left:-450px;	z-index:12; }
+/*** yogesh ends ***/
+	
+#sub_tab_maindfgasdf2 {
+	width:453px;
+	height:22px;
+	float:right;
+	background-color:#5b5b5b;
+	margin:0 449px 0 0;
+	/*border-top:1px solid #FFF;*/
+	position:fixed; z-index:12; margin-top:138px; right:0;
+	}
+	
+	
+	
+#sub_tab_main2a {
+	width:92px;
+	height:22px;
+	float:right;
+	background-color:#5b5b5b;
+	margin:0 356px 0 0;
+	/*border-top:1px solid #FFF;*/
+	position:fixed; z-index:12; margin-top:138px; right:0;
+	}	
+
+#stab1 {
+	width:103px;
+	height:22px;
+	float:left;
+	}
+
+#stab1-1 {
+	width:103px;
+	height:22px;
+	float:left;
+	display:none;
+	}
+		
+#stab11 {
+	width:103px;
+	height:22px;
+	float:left;
+	display:none;
+	}	
+	
+#stab11-1 {
+	width:103px;
+	height:22px;
+	float:left;
+	/*display:none;*/
+	}
+	
+#stab2 {
+	width:147px;
+	height:22px;
+	float:left;
+	}	
+#stab22 {
+	width:147px;
+	height:22px;
+	float:left;
+	display:none;
+	}	
+#stab3 {
+	width:94px;
+	height:22px;
+	float:left;
+	}	
+#stab33 {
+	width:94px;
+	height:22px;
+	float:left;
+	display:none;
+	}	
+#stab4 {
+	width:106px;
+	height:22px;
+	float:left;
+	}	
+#stab44 {
+	width:106px;
+	height:22px;
+	float:left;
+	display:none;
+	}	
+#stab5 {
+	width:150px;
+	height:22px;
+	float:left;
+	}	
+#stab55 {
+	width:150px;
+	height:22px;
+	float:left;
+	display:none;
+	}
+#stab6 {
+	width:108px;
+	height:22px;
+	float:left;
+	}	
+#stab6-1 {
+	width:108px;
+	height:22px;
+	float:left;
+	display:none;
+	}	
+#stab66 {
+	width:108px;
+	height:22px;
+	float:left;
+	display:none;
+	}	
+#stab7 {
+	width:106px;
+	height:22px;
+	float:left;
+	}	
+#stab77 {
+	width:106px;
+	height:22px;
+	float:left;
+	display:none;
+	}
+#stab8 {
+	width:104px;
+	height:22px;
+	float:left;
+	}	
+#stab88 {
+	width: 104px;
+	height:22px;
+	float:left;
+	display:none;
+	}
+#stab9 {
+	width:93px;
+	height:22px;
+	float:left;
+	}	
+#stab99 {
+	width:93px;
+	height:22px;
+	float:left;
+	display:none;
+	}
+#Pstab1 {
+	width:108px;
+	height:22px;
+	float:left;
+	}
+
+#Pstab2 {
+	width:106px;
+	height:22px;
+	float:left;
+	}
+
+#Pstab3 {
+	width:104px;
+	height:22px;
+	float:left;
+	}
+#Pstab4 {
+	width:93px;
+	height:22px;
+	float:left;
+	}
+#Pstab5 {
+	width:103px;
+	height:22px;
+	float:left;
+	}
+#Pstab6 {
+	width:147px;
+	height:22px;
+	float:left;
+	}
+#Pstab7 {
+	width:94px;
+	height:22px;
+	float:left;
+	}
+#Pstab8 {
+	width:106px;
+	height:22px;
+	float:left;
+	}
+#Pstab9 {
+	width:91px;
+	height:22px;
+	float:left;
+	}
+#devider {
+	width:1px;
+	height:22px;
+	float:left
+	}
+
+#devider2 {
+	width:1px;
+	height:22px;
+	float:left
+	}
+	
+#footer {
+	width:100%;
+	height:26px;
+	position:absolute;
+	bottom:20px;
+	}	
+	
+#footer_link {
+	width:auto;
+	height:auto;
+	float:left;
+	padding:0 0 0 20px;
+	}	
+.footer_link {
+	font-family:'Swis721LtBTLight';
+	font-size:11px;
+	color:#000000;
+	line-height:14px;
+	}
+	
+.footer_link a {
+	font-family:'Swis721LtBTLight';
+	font-size:11px;
+	color:#000000;
+	text-decoration:none;
+	}
+	
+.footer_link a:hover {
+	font-family:'Swis721LtBTLight';
+	font-size:11px;
+	color:#000000;
+	text-decoration:underline;
+	}
+	
+#footer_icon {
+	width: 70px;
+	height: 26px;
+	float: right;
+	margin: 0 20px 0 0;
+	}	
+	
+#fb {
+	width:26px;
+	height:26px;
+	float:left;
+	margin:0 2px 0 0;
+	}
+
+#clear {
+	clear:both;
+	}
+
+#my_caption {
+	width:620px;
+	height:auto;
+	background-color:#a31d1d;
+	padding:10px 15px 10px 15px;
+	}			
+	
+.my_caption {
+	font-family:'Swis721BTRoman';
+	font-size:16px;
+	color:#ffffff;
+	line-height:26px;
+	/*padding:3px 15px 3px 15px;*/
+	}
+
+/*-------------------contact start-------------------------*/	
+#d_contact_box {
+	width:100%;
+	height:387px;
+	float:left;
+	background:url(../images/contact_bg2.png) center repeat-y;
+	margin:0 0 0 0;
+	}
+	
+#d_contact_box_inner {
+	width:1600px;
+	height:387px;
+	background:url(../images/contact_bg.png);
+	margin:0 auto 0;
+	}
+	
+#d_contact_smallbox1 {
+	width:332px;
+	height:387px;
+	float:left;
+	padding:0 0 0 20px;
+	margin:50px 0 0 0;
+	}
+	
+#d_contact_smallbox2 {
+	width:272px;
+	height:387px;
+	float:left;
+	padding:0 0 0 57px;
+	margin:50px 0 0 0;
+	}
+
+#d_contact_smallbox3 {
+	width:240px;
+	height:387px;
+	float:left;
+	padding:0 0 0 60px;
+	margin:50px 0 0 0;
+	}
+	
+#d_contact_smallbox4 {
+	width:278px;
+	height:387px;
+	float:left;
+	padding:0 0 0 60px;
+	margin:50px 0 0 0;
+	}
+	
+#d_contact_smallbox{
+	width:14%;
+	height:337px;
+	float:left;
+	padding:20px;
+	}
+#d_contact_line{
+	width:93px;
+	height:387px;
+	float:left;
+	}
+#d_contact_heading{
+	width:100%;
+	height:35px;
+	padding:0 0 10px 0;
+	font-family:'Swis721LtBTLight';
+	font-size:28px;
+	color:#be2026;
+	}
+#d_contact_text {
+	width:100%;
+	height:auto;
+	font-family:'Swis721LtBTLight';
+	font-size:18px;
+	color:#252525;
+	line-height:31px;
+	}
+	
+#d_contact_text a {
+	font-family:'Swis721LtBTLight';
+	font-size:18px;
+	color:#252525;
+	line-height:31px;
+	text-decoration:none;
+	}
+
+#d_contact_text a:hover {
+	font-family:'Swis721LtBTLight';
+	font-size:18px;
+	color:#252525;
+	line-height:31px;
+	text-decoration:underline;
+	}
+	
+#d_wrap1{
+	width:900px;
+	height:auto;
+	margin:0 auto 0;
+	}
+#d_wrap{
+	width:100%;
+	height:100%;
+	}	
+	
+#d_contact_box2 {
+	width:100%;
+	height:auto;
+	float:left;
+	background:url(../images/contact_bg.png) center repeat;
+	margin:0 0 0 0;
+	}
+	
+#d_contact_box2_pp {
+	width:100%;
+	height:351px;
+	float:left;
+	margin:0 0 0 0;
+	background:url(../images/contact_bg.png) ;
+	}
+
+#contact_main1 {
+	width:195px;
+	height:auto;
+	float:left;
+	padding:0 0 0 20px;
+	}
+
+#contact_main2 {
+	width:160px;
+	height:auto;
+	float:left;
+	padding:0 0 0 20px;
+	}
+
+#contact_main3 {
+	width:170px;
+	height:auto;
+	float:left;
+	padding:0 0 0 20px;
+	}
+
+#contact_main4 {
+	width:186px;
+	height:auto;
+	float:left;
+	padding:0 0 0 20px;
+	}
+
+
+#contact_name {
+	width:100%;
+	height:auto;
+	float:left;
+	margin:85px 0 15px 0;
+	font-family:'Swis721LtBTLight';
+	font-size:18px;
+	color:#be2026;
+	}
+	
+#contact_add {
+	width:100%;
+	height:auto;
+	float:left;
+	font-family:'Swis721LtBTLight';
+	font-size:13px;
+	color:#252525;
+	line-height:18px;
+	}	
+	
+#contact_add a {
+	font-family:'Swis721LtBTLight';
+	font-size:13px;
+	color:#252525;
+	text-decoration:none;
+	}	
+
+#contact_add a:hover {
+	font-family:'Swis721LtBTLight';
+	font-size:13px;
+	color:#252525;
+	text-decoration:underline;
+	}	
+
+#contact_devider {
+	width:36px;
+	height:232px;
+	float:left;
+	margin:65px 0 0 0;
+	}
+/*-------------------contact end-------------------------*/	
+
+#overview_main {
+	width:1600px;
+	height:570px;
+	margin:0 auto 0;
+	}
+	
+#overview_main2 {
+	width:900px;
+	height:316px;
+	margin:0 auto 0;
+	}
+	
+#overview_main2_new {
+	width:900px;
+	height:600px;
+	margin:0 auto 0;
+	}
+
+#overview_main2_new_deepak {
+	width:900px;
+	height:25px;
+	margin:0 auto 0;
+	}
+	
+#overview_main_v {
+	width:1600px;
+	height:570px;
+	margin:0 auto 0;
+	}
+	
+#overview_main_v2 {
+	width:900px;
+	height:292px;
+	margin:0 auto 0;
+	}
+
+
+#overview_main_h {
+	width:1600px;
+	height:570px;
+	margin:0 auto 0;
+	}
+	
+#overview_main_h2 {
+	width:900px;
+	height:292px;
+	margin:0 auto 0;
+	}
+
+#overview_main_b {
+	width:1600px;
+	height:570px;
+	margin:0 auto 0;
+	}
+	
+#overview_main_b2 {
+	width:900px;
+	height:292px;
+	margin:0 auto 0;
+	}
+
+#overview_main_s {
+	width:1600px;
+	height:570px;
+	margin:0 auto 0;
+	}
+	
+#overview_main_s2 {
+	width:900px;
+	height:292px;
+	margin:0 auto 0;
+	}
+
+#overview_left {
+	width:757px;
+	height:570px;
+	float:left;
+	margin:0 0 0 20px;
+	}	
+
+#overview_left2 {
+	width:465px;
+	height:292px;
+	float:left;
+	/*margin:0 0 0 20px;*/
+	}
+		
+#overview_right {
+	width:803px;
+	height:570px;
+	float:left;
+	}	
+	
+#overview_right2 {
+	width:416px;
+	height:292px;
+	float:left;
+	}
+	
+.grey18 {
+	font-family:'Swis721LtBTLight';
+	font-size:18px;
+	color:#454545;
+	line-height:30px;
+	}	
+	
+.black18 {
+	font-family:'Swis721LtBTLight';
+	font-size:18px;
+	color:#252525;
+	line-height:30px;
+	font-weight:bold;
+	}		
+	
+.black30 {
+	font-family:'Swis721LtBTLight';
+	font-size:30px;
+	color:#252525;
+	line-height:30px;
+	}	
+	
+.grey13 {
+	font-family:'Swis721LtBTLight';
+	font-size:11.5px;
+	color:#454545;
+	line-height:20px;
+	}	
+	
+.black13 {
+	font-family:'Swis721LtBTLight';
+	font-size:13px;
+	color:#252525;
+	line-height:20px;
+	font-weight:bold;
+	}		
+	
+.black16 {
+	font-family:'Swis721LtBTLight';
+	font-size:16px;
+	color:#252525;
+	line-height:20px;
+	}
+.black16_d {
+	font-family:'Swis721BTRoman';
+	font-size:18px;
+	color:#a41e1e;
+	line-height:20px;
+	font-weight:bold;
+	}	
+	
+#white_bg {
+	width:100%;
+	height:320px;
+	padding:30px 0 30px 0;
+	}
+	
+#foot_devide {
+	width:2px;
+	height:26px;
+	float:left;
+	}
+	
+#small_contact_inner_pp {
+	width:900px;
+	height:auto;
+	margin:30px auto 0;
+	}
+#small_contact_inner {
+	width:900px;
+	height:351px;
+	margin:0 auto 0;
+	/*background:url(../images/contact_bg.png);*/
+	}
+	
+#left_sidebar_pp {
+	width:104px;
+	height:auto;
+	float:left;
+	margin:0 0 0 20px;
+	}
+	
+#left_sidebar_pp2 {
+	width:107px;
+	height:auto;
+	float:left;
+	margin:0 0 0 20px;
+	}
+
+#west {
+	width:107px;
+	height:27px;
+	float:left;
+	margin-bottom:20px;
+	display:none;
+	}	
+	
+#south {
+	width:107px;
+	height:27px;
+	float:left;
+	margin-bottom:20px;
+	}	
+
+#north {
+	width:107px;
+	height:27px;
+	float:left;
+	margin-bottom:20px;
+	}	
+
+#nagpur {
+	width:107px;
+	height:27px;
+	float:left;
+	margin-bottom:20px;
+	}	
+
+#nagpur1 {
+	width:107px;
+	height:27px;
+	float:left;
+	margin-bottom:20px;
+	display:none;
+	}	
+
+#other_city {
+	width:107px;
+	height:27px;
+	float:left;
+	margin-bottom:20px;
+	}	
+
+#other_city1 {
+	width:107px;
+	height:27px;
+	float:left;
+	margin-bottom:20px;
+	display:none;
+	}	
+
+#west1 {
+	width:107px;
+	height:27px;
+	float:left;
+	margin-bottom:20px;
+	/*margin-bottom:10px;*/
+	}	
+	
+#south1 {
+	width:107px;
+	height:27px;
+	float:left;
+	margin-bottom:20px;
+	display:none;
+	}	
+
+#north1 {
+	width:107px;
+	height:27px;
+	float:left;
+	margin-bottom:20px;
+	display:none;
+	}	
+	
+#w_res1 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:11px 0 0 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	display:none;
+	
+	}
+
+#w_res1 a {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+
+#w_res1 a:hover {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+	
+#w_res2 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:11px 0 0 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	}
+	
+#w_com1 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:6px 0 8px 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	}
+
+#w_com1 a {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+
+#w_com1 a:hover {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+	
+#w_com2 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:6px 0 8px 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	display:none;
+	}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+#s_res1 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:0 0 0 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	display:none;
+	}
+
+#s_res1 a {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+
+#s_res1 a:hover {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+	
+#s_res2 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:0 0 0 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	display:none;
+	}
+	
+#s_com1 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:5px 0 8px 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	display:none;
+	}
+
+#s_com1 a {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+
+#s_com1 a:hover {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+	
+#s_com2 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:5px 0 8px 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	display:none;
+	}
+	
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+#n_res1 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:0 0 0 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	display:none;
+	}
+
+#n_res1 a {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+
+#n_res1 a:hover {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+	
+#n_res2 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:0 0 0 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	display:none;
+	}
+	
+#n_com1 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:5px 0 8px 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	display:none;
+	}
+
+#n_com1 a {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+
+#n_com1 a:hover {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+	
+#n_com2 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:5px 0 8px 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	display:none;
+	}
+
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+#na_res1 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:0 0 0 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	display:none;
+	}
+
+#na_res1 a {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+
+#na_res1 a:hover {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+	
+#na_res2 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:0 0 0 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	display:none;
+	}
+	
+#na_com1 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:5px 0 8px 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	display:none;
+	}
+
+#na_com1 a {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+
+#na_com1 a:hover {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+	
+#na_com2 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:5px 0 8px 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	display:none;
+	}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+#oc_res1 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:0 0 0 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	display:none;
+	}
+
+#oc_res1 a {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+
+#oc_res1 a:hover {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+	
+#oc_res2 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:0 0 0 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	display:none;
+	}
+	
+#oc_com1 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:5px 0 8px 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	display:none;
+	}
+
+#oc_com1 a {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#252525;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+
+#oc_com1 a:hover {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	text-decoration:none;
+	}
+	
+#oc_com2 {
+	width:90px;
+	height:auto;
+	float:left;
+	padding:5px 0 8px 12px;
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#bf2026;
+	text-transform:uppercase;
+	display:none;
+	}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+#pp_dot {
+	width:2px;
+	height:320px;
+	background:url(../images/pp_dots.png);
+	margin:0 38px 0 38px;
+	float:left;
+	}
+
+#pp_dot2 {
+	width:2px;
+	height:240px;
+	background:url(../images/pp_dots2.png);
+	margin:0 30px 0 35px;
+	float:left;
+	}
+
+#pp_dot3 {
+	width:2px;
+	height:280px;
+	background:url(../images/pp_dots2.png);
+	margin:0 30px 0 32px;
+	float:left;
+	}
+
+#view_all {
+	width:120px;
+	height:auto;
+	float:left;
+	position:absolute;
+	font-family:'Swis721BTRoman';
+	font-size:11px;
+	color:#2a2a2a;
+	margin:280px 0 0 0;
+	}
+
+#view_all a {
+	font-family:'Swis721BTRoman';
+	font-size:11px;
+	color:#2a2a2a;
+	text-decoration:none;
+	}
+
+#view_all a:hover {
+	font-family:'Swis721BTRoman';
+	font-size:11px;
+	color:#2a2a2a;
+	text-decoration:underline;
+	}
+
+#right_panel_pp1 {
+	width:696px;
+	height:320px;
+	float:left;
+	position:absolute;
+	margin:0 0 0 194px;
+	}
+
+
+#right_panel_pp2 {
+	width:696px;
+	height:320px;
+	float:left;
+	position:absolute;
+	margin:0 0 0 194px;
+	visibility:hidden;
+	}
+
+#right_panel_pp3 {
+	width:696px;
+	height:320px;
+	float:left;
+	position:absolute;
+	margin:0 0 0 2px;
+	visibility:hidden;
+	}
+
+#right_panel_pp4 {
+	width:696px;
+	height:320px;
+	float:left;
+	position:absolute;
+	margin:0 0 0 2px;
+	visibility:hidden;
+	}
+
+#right_panel_pp5 {
+	width:696px;
+	height:320px;
+	float:left;
+	position:absolute;
+	margin:0 0 0 2px;
+	visibility:hidden;
+	}
+
+#right_panel_pp6 {
+	width:696px;
+	height:320px;
+	float:left;
+	visibility:hidden;
+	position:absolute;
+	margin:0 0 0 194px;
+	}
+
+
+#city_name_main1 {
+	width:710px;
+	height:20px;
+	float:left;
+	margin:0 0 12px 0;
+	}
+
+#type {
+	width:100%;
+	height:auto;
+	float:left;
+	font-family:'Swis721BTRoman';
+	font-size:12px;
+	color:#000000;
+	margin:0 0 10px 0;
+	}
+
+#type2 {
+	height:auto;
+	float:left;
+	font-family:'Swis721BTRoman';
+	font-size:16px;
+	color:#000000;
+	margin:0 0 10px 0;
+	font-weight:bold;
+	}
+
+#city_name {
+	width:auto;
+	height:auto;
+	font-family:'Swis721BTRoman';
+	font-size:14px;
+	color:#a3252a;
+	float:left;
+	text-transform:uppercase;
+	margin:0 12px 0 0;
+	padding:2px 0 0 0;
+	}
+
+#map_button {
+	width:auto;
+	height:auto;
+	font-family:'Swis721BTRoman';
+	font-size:14px;
+	color:#ffffff;
+	float:left;
+	text-transform:uppercase;
+	background-color:#000;
+	padding:2px 2px 0 2px;
+	}
+	
+#map_button a {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#ffffff;
+	text-decoration:none;
+	}
+
+#map_button a:hover {
+	font-family:'Swis721LtBTLight';
+	font-size:14px;
+	color:#ffffff;
+	text-decoration:none;
+	}
+
+#all_past_projects {
+	width:686px;
+	height:321px;
+	float:left;
+	}
+
+#area_name {
+	width:100%;
+	height:auto;
+	font-family:'Swis721BTRoman';
+	font-size:12px;
+	color:#a3252a;
+	float:left;
+	text-transform:uppercase;
+	margin:0 0 2px 0;
+	font-weight:bold;
+	}
+	
+#build_name {
+	width:100%;
+	height:auto;
+	font-family:'Swis721BTRoman';
+	font-size:11px;
+	color:#474747;
+	float:left;
+	margin:0 0 5px 0;
+	line-height:18px;
+	}
+
+#map_my {
+	width:685px;
+	height:294px;
+	position:absolute;
+	z-index:101;
+	
+	}
+
+#bub1 {
+	width:auto;
+	height:140px;
+	position:absolute;
+	z-index:2000;
+	top:125px;
+	left:255px;
+	display:none;
+	}
+
+#bub2 {
+	width:auto;
+	height:30px;
+	position:absolute;
+	z-index:2000;
+	top:90px;
+	left:350px;
+	display:none;
+	}
+
+#bub3 {
+	width: auto;
+	height: 100px;
+	position: absolute;
+	z-index: 2000;
+	top: 75px;
+	left: 350px;
+	display:none;
+	}
+
+#bub4 {
+	width: auto;
+	height: 80px;
+	position: absolute;
+	z-index: 2000;
+	top: 350px;
+	left: 280px;
+	display: none;
+	}
+
+#bub5 {
+	width: auto;
+	height: 30px;
+	position: absolute;
+	z-index: 2000;
+	top: 430px;
+	left: 320px;
+	display: none;
+	}
+	
+#bub6 {
+	width: auto;
+	height: 120px;
+	position: absolute;
+	z-index: 2000;
+	top: 510px;
+	left: 190px;
+	display: none;
+	}
+
+#bub7 {
+	width: auto;
+	height: 95px;
+	position: absolute;
+	z-index: 2000;
+	top: 665px;
+	left: 48px;
+	display:none;
+	}
+
+#bub8 {
+	width: auto;
+	height: 40px;
+	position: absolute;
+	z-index: 2000;
+	top: 835px;
+	left: 181px;
+	display:none;
+	}
+
+#bub9 {
+	width: auto;
+	height: 125px;
+	position: absolute;
+	z-index: 2000;
+	top: 330px;
+	left: 490px;
+	display: none;
+	}
+
+#bub10 {
+	width: auto;
+	height: 30px;
+	position: absolute;
+	z-index: 2000;
+	top: 260px;
+	left: 470px;
+	display: none;
+	}
+
+#bub11 {
+	width:auto;
+	height:30px;
+	position:absolute;
+	z-index:2000;
+	top:200px;
+	left:325px;
+	display:none;
+	}
+
+#bub12 {
+	width: auto;
+	height: 30px;
+	position: absolute;
+	z-index: 2000;
+	top: 340px;
+	left: 410px;
+	display: none;
+	}
+
+#bub13 {
+	width: auto;
+	height: 30px;
+	position: absolute;
+	z-index: 2000;
+	top: 400px;
+	left: 310px;
+	display: none;
+	}
+
+#bub14 {
+	width: auto;
+	height: 30px;
+	position: absolute;
+	z-index: 2000;
+	top: 420px;
+	left: 270px;
+	display: none;
+	}
+
+#bub15 {
+	width: auto;
+	height: 30px;
+	position: absolute;
+	z-index: 2000;
+	top: 570px;
+	left: 350px;
+	display: none;
+	}
+
+#bub16 {
+	width:auto;
+	height:30px;
+	position:absolute;
+	z-index:2000;
+	top:600px;
+	left:95px;
+	display:none;
+	}
+
+#bub17 {
+	width:auto;
+	height:30px;
+	position:absolute;
+	z-index:2000;
+	top:630px;
+	left:85px;
+	display:none;
+	}
+
+#bub18 {
+	width:auto;
+	height:30px;
+	position:absolute;
+	z-index:2000;
+	top:640px;
+	left:135px;
+	display:none;
+	}
+
+#bub19 {
+	width:auto;
+	height:30px;
+	position:absolute;
+	z-index:2000;
+	top:820px;
+	left:135px;
+	display:none;
+	}
+	
+#bub20 {
+	width:auto;
+	height:30px;
+	position:absolute;
+	z-index:2000;
+	top:800px;
+	left:165px;
+	display:none;
+	}	
+	
+#bub_pune1 {
+	width: 110px;
+	height: 30px;
+	position: absolute;
+	z-index: 2000;
+	top: 266px;
+	left: 515px;
+	display:none;
+	}
+
+#bub_pune2 {
+	width: 110px;
+	height: 30px;
+	position: absolute;
+	z-index: 2000;
+	top: 50px;
+	left: 566px;
+	display:none;
+	}
+
+#bub_ban1 {
+	width: 110px;
+	height: 30px;
+	position: absolute;
+	z-index: 2000;
+	top: 524px;
+	left: 518px;
+	display:none;
+	}
+
+#corner {
+	width:19px;
+	height:16px;
+	float:left;
+	position:relative;
+	}
+	
+#corner_right {
+	width:auto;
+	float:left;
+	position:relative;
+	background:url(../images/red.png);
+	padding:5px;
+	font-family:'Swis721LtBTLight';
+	font-size:11px;
+	color:#ffffff;
+	line-height:14px;
+	}
+
+ul.menu2 {list-style:none; margin:0; padding:0}
+ul.menu2 * {margin:0; padding:0}
+ul.menu2 a {display:block; color:#000; text-decoration:none}
+ul.menu2 li {position:relative; float:left;}
+ul.menu2 ul {position:absolute; top:22px; left:0; display:none; opacity:0; list-style:none}
+ul.menu2 ul li {position:relative; margin:0}
+ul.menu2 ul li a {display:block;}
+ul.menu2 ul li a:hover { }
+ul.menu2 ul ul { top:-1px}
+ul.menu2 .menulink {font-weight:bold; background:url(images/header.gif);}
+ul.menu2 .menulink:hover, ul.menu .menuhover {}
+ul.menu2 .sub {background:#d1d1d1 url(images/arrow.gif) 136px 8px no-repeat}
+ul.menu2 .topline {border-top:1px solid #aaa}	
+
+/*--------------------dipika------------------------*/
+#project_left2 {
+	width:244px;
+	height:292px;
+	float:left;
+	margin:0 0 0 20px;
+	}
+#project_left2a {
+	width:180px;
+	height:292px;
+	float:left;
+	margin:0 0 0 20px;
+	background-color:#930;
+	}
+/*-------------------dipika--------------------*/
+#overview_left2a {
+	width:247px;
+	height:292px;
+	float:left;
+	margin:0 25px 0 20px;
+	}
+#overview_left2b {
+	width:121px;
+	height:auto;
+	float:left;
+	margin:0 0 0 3px;
+	padding:6px 17px 23px 17px;
+	}
+#overview_left2c {
+	width:5px;
+	height:292px;
+	float:left;
+	background:url(../images/contact_line5.png);
+	margin:0 10px 0 0 ;
+	}
+.black16a_d {
+	font-family:'Swis721BTRoman';
+	font-size:11px;
+	color:#a41e1e;
+	line-height:20px;
+	/*font-weight:bold;*/
+	}
+#project_btn_wrap {
+	width:109px;
+	height:auto;
+	float:left;
+	}
+#project_btn {
+	width:109px;
+	height:29px;
+	float:left;
+	}
+
+#upcoming1 , #upcoming11 , #upcoming111 , #upcoming1111 {
+	width:121px;
+	height:27px;
+	float:left;
+	margin:0 0 20px 0;
+	}
+
+#upcomingh{
+	width:121px;
+	/*height:27px;*/
+	float:left;
+	margin:0 0 0px 0;
+	}	
+
+#upcoming2 , #upcoming22 , #upcoming222 , #upcoming2222 {
+	width:121px;
+	height:27px;
+	float:left;
+	display:none;
+	margin:0 0 10px 0;
+	}
+
+#ongoing {
+	font-family:'Swis721BTRoman';
+	font-size:11px;
+	color:#000000;
+	line-height:20px;
+	font-weight:bold;
+}
+
+#ongoing1 , #ongoing11 , #ongoing111 , #ongoing1111 {
+	width:121px;
+	height:17px;
+	float:left;
+	margin:0 0 20px 0;
+	}
+
+#ongoing2 , #ongoing22 , #ongoing222 , #ongoing2222 {
+	width:121px;
+	height:27px;
+	float:left;
+	display:none;
+	margin:0 0 10px 0;
+	}
+	
+#complete1 {
+	width:121px;
+	height:44px;
+	float:left;
+	margin:0 0 20px 0;
+	}
+
+#complete11 , #complete111 , #complete1111 {
+	width:121px;
+	height:27px;
+	float:left;
+	margin:0 0 20px 0;
+	}
+
+#complete2 {
+	width:121px;
+	height:44px;
+	float:left;
+	display:none;
+	margin:0 0 10px 0;
+	}
+
+#complete22 , #complete222 , #complete2222 {
+	width:121px;
+	height:27px;
+	float:left;
+	display:none;
+	margin:0 0 10px 0;
+	}
+	
+#upcoming_sub , #upcoming_sub2 , #upcoming_sub3 {
+	width:121px;
+	height:auto;
+	float:left;
+	padding:0 0 0 0;
+	/*display:none;*/
+	}
+
+#mumbai_sub {
+	width:104px;
+	height:auto;
+	float:left;
+	padding:0 0 0 0;
+	}
+	
+#pune_sub {
+	width:104px;
+	height:auto;
+	float:left;
+	padding:0 0 0 0;
+	display:none;
+	}
+
+#banglore_sub {
+	width:104px;
+	height:auto;
+	float:left;
+	padding:0 0 0 0;
+	display:none;
+	}
+
+#nagpur_sub {
+	width:104px;
+	height:auto;
+	float:left;
+	padding:0 0 0 0;
+	display:none;
+	}
+	
+#other_sub {
+	width:104px;
+	height:auto;
+	float:left;
+	padding:0 0 0 0;
+	display:none;
+	}
+
+#ongoing_sub , #ongoing_sub2 , #ongoing_sub3 {
+	width:121px;
+	height:auto;
+	float:left;
+	padding:0 0 0 0;
+	display:none;
+	}
+	
+#complete_sub , #complete_sub2 , #complete_sub3 {
+	width:121px;
+	height:auto;
+	float:left;
+	padding:0 0 0 0;
+	display:none;
+	}
+	
+#project_btn_text {
+	width:109px;
+	height:20px;
+	float:left;
+	font-family:'Swis721LtBTLight';
+	font-size:13px;
+	color:#2a2a2a;
+	}
+#overview_bottom {
+	width:706px;
+	height:20px;
+	float:left;
+	text-align:right;
+	padding:10px 0 0 0;
+	margin:0 0 0 0;
+	}
+#overview_main2z {
+	width:900px;
+	height:500px;
+	margin:0 auto 0;
+	}
+#project_bottom_btn {
+	width:auto;
+	height:auto;
+	float:right;
+	font-family:'Swis721LtBTLight';
+	font-size:12px;
+	color:#a3252a;
+	padding:0 5px 0 5px;
+	text-decoration:none;
+	margin:5px 0 0 0;
+	}
+#project_bottom_btn a{
+	width:auto;
+	height:auto;
+	float:right;
+	font-family:'Swis721LtBTLight';
+	font-size:12px;
+	color:#a3252a;
+	text-decoration:none;
+	margin:5px 0 0 0;
+	}
+#project_bottom_btn a:hover{
+	width:auto;
+	height:auto;
+	float:right;
+	font-family:'Swis721LtBTLight';
+	font-size:12px;
+	color:#000000;
+	text-decoration:none;
+	margin:5px 0 0 0;
+	}
+	
+#project_bottom_btn_new {
+	width:auto;
+	height:auto;
+	float:right;
+	font-family:'Swis721LtBTLight';
+	font-size:12px;
+	color:#a3252a;
+	padding:0 0 0 0;
+	text-decoration:none;
+	margin:5px 0 0 0;
+	text-align:right;
+	}
+#project_bottom_btn_new a{
+	font-family:'Swis721LtBTLight';
+	font-size:12px;
+	color:#a3252a;
+	text-decoration:none;
+	}
+#project_bottom_btn_new a:hover{
+	font-family:'Swis721LtBTLight';
+	font-size:12px;
+	color:#000000;
+	text-decoration:none;
+	}
+#big_gallery {
+	width: 40px;
+    height: 26px;
+    z-index: 9;
+    position:relative;
+    left: 89%;
+    top: 34px;
+    margin-top:-20px;
+
+	}
+#content {
+		width:100%;
+		height:300px;
+		padding:0 0 30px 0;
+		margin:-6px 0 0 0;
+	/*background:url(../images/contact_bg.png);*/
+	}
+	
+#view11 , #view22 , #view111 , #view222 {
+		width:auto;
+		height:auto;
+		float:left;
+	}
+
+#big_box_right {
+		width:auto;
+		height:auto;
+		float:left;
+		position:absolute;
+		margin:0 0 0 173px;
+		
+	}
+	
+#big_box_right2 {
+		width:auto;
+		height:352px;
+		float:left;
+		/*background-color:#360;*/
+		position:absolute;
+		margin:0 0 0 173px;
+		overflow:hidden;
+		/*visibility:hidden;*/
+		
+	}
+
+#big_box_right3 {
+		width:auto;
+		height:auto;
+		float:left;
+		/*background-color:#660;*/
+		position:absolute;
+		margin:0 0 0 173px;
+		/*visibility:hidden;*/
+	}
+
+
+	
+#cross {
+		width:auto;
+		height:auto;
+		position:absolute;
+		right:10px;
+		top:260px;
+		z-index:1000;
+		font-family:'Swis721LtBTLight';
+		font-size:20px;
+		text-decoration: none;
+		color:#000;
+	}
+	
+#cross a {
+	font-family:'Swis721LtBTLight';
+	font-size:20px;
+    text-decoration: none;
+	color:#000;
+	}
+
+#cross a:hover {
+	font-family:'Swis721LtBTLight';
+	font-size:20px;
+    text-decoration: none;
+	color:#a3252a;
+	}
+
+	
+	
+.tabs
+{
+    padding: 0;
+    font-size: 0;
+    margin:0;
+    list-style-type: none;
+    text-align: left; /*set to left, center, or right to align the tabs as desired*/
+}
+        
+.tabs li
+{
+	font-family:'Swis721LtBTLight';
+	font-size:11px;
+    /*display: inline;*/
+    margin-left:13px; /*distance between tabs*/
+	margin-bottom:3px;
+	/*text-transform:uppercase;*/
+}
+        
+.tabs li a
+{
+	font-family:'Swis721LtBTLight';
+	font-size:11px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    color: #000;
+}
+        
+.tabs li a:visited
+{
+    color: #000;
+}
+        
+.tabs li a:hover
+{
+	color:#a4252a;
+}
+        
+.tabs li.selected a
+{
+    /*selected tab style */
+    position: relative;
+    top: 0px;
+	color:#a4252a;
+	font-weight:normal;
+}
+        
+        
+.tabs li.selected a:hover
+{
+    /*selected tab style */
+    text-decoration: none;
+}
+        
+.tabcontent , .tabcontent2 , .tabcontent3 {
+    display: block;
+	height:352px;
+}
+
+.tabcontents1
+{
+	height:352px;
+	overflow:hidden;
+}
+
+#contact_new {
+	width:431px;
+	height:auto;
+	margin:0 auto 0;
+	}
+
+#sub_menu{
+	width:431px;
+	height:20x;
+	background-color:#900;
+}
+#box_123{
+	width:auto;
+	height:600px;
+}
+
+.tabs_1234
+{
+	font-family:'Swis721LtBTLight';
+	font-size:10px;
+}
+
+
+/*#sub_tab_main2 {
+	width:453px;
+	height:22px;
+	background-color:#5b5b5b;
+	margin:0 960px 0 0;
+	border-top:1px solid #FFF;
+	position:fixed; z-index:12; margin-top:287px; right:0;
+	}*/
+	
+#button_wrap {
+	width:900px;
+	height:600px;
+	margin:auto;
+	}

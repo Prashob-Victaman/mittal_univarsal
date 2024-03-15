@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+<title>Mittal Universal</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../css/jquery.ad-gallery.css">
+<link type='text/css' href='../css/basic.css' rel='stylesheet' media='screen' />
+
+<script type="text/javascript" src="../js/jquery-1.4.2.min.js"></script>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        
+        <script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+		<!-- the jScrollPane script -->
+		<script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+		<!-- scripts specific to this demo site -->
+
+		<script type="text/javascript" id="sourcecode">
+  $(function()
+			{
+				$('.scroll-pane').jScrollPane({showArrows: true});
+			});
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+        </script>
+        
+<!-- styles needed by jScrollPane - include in your own sites -->
+		<link type="text/css" href="../css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+		<style type="text/css" id="page-css">
+			/* Styles specific to this particular page */
+			.scroll-pane
+			{
+				width: 90%;
+				height: 290px;
+				overflow: auto;
+				padding:0 20px 0 0;
+			}
+			.horizontal-only
+			{
+				height: auto;
+				max-height: 200px;
+			}
+		</style>
+
+		<!-- latest jQuery direct from google's CDN -->
+		<!-- the mousewheel plugin -->
+<script type="text/javascript" src="../js/jquery.ad-gallery.js"></script>
+<script type="text/javascript">
+  $(function() {
+    $('img.image1').data('ad-desc', 'Whoa! This description is set through elm.data("ad-desc") instead of using the longdesc attribute.<br>And it contains <strong>H</strong>ow <strong>T</strong>o <strong>M</strong>eet <strong>L</strong>adies... <em>What?</em> That aint what HTML stands for? Man...');
+    $('img.image1').data('ad-title', 'Title through $.data');
+    $('img.image4').data('ad-desc', 'This image is wider than the wrapper, so it has been scaled down');
+    $('img.image5').data('ad-desc', 'This image is higher than the wrapper, so it has been scaled down');
+    var galleries = $('.ad-gallery').adGallery();
+    $('#switch-effect').change(
+      function() {
+        galleries[0].settings.effect = $(this).val();
+        return false;
+      }
+    );
+    $('#toggle-slideshow').click(
+      function() {
+        galleries[0].slideshow.toggle();
+        return false;
+      }
+    );
+    $('#toggle-description').click(
+      function() {
+        if(!galleries[0].settings.description_wrapper) {
+          galleries[0].settings.description_wrapper = $('#descriptions');
+        } else {
+          galleries[0].settings.description_wrapper = false;
+        }
+        return false;
+      }
+    );
+  });
+  </script>		
+</head>
+
+<body>
+<div id="d_wrap">
+<div id="overview_left2b">
+<div id="project_btn_wrap">
+<div id="project_btn"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','../images/upcoming2.jpg',0)"><img src="../images/upcoming1.jpg" width="109" height="29" id="Image2"></a></div>
+<div id="clear" style="height:1px;"></div>
+<div id="project_btn" style="display:none"><div id="project_btn_text" >Mittal Commercia</div><div id="project_btn_text">Mittal Commercia</div></div>
+</div>
+<div id="clear" style="height:10px;"></div>
+<div id="project_btn_wrap">
+<div id="project_btn"><img src="../images/ongoing2.jpg" width="109" height="29"></div>
+<div id="clear" style="height:1px;"></div>
+<div id="project_btn"><div id="project_btn_text" style="margin-top:10px;">Mittal Commercia</div><div id="project_btn_text">Andheri | Mumbai</div></div>
+</div>
+<div id="clear" style="height:10px;"></div>
+<div id="project_btn_wrap">
+<div id="project_btn"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','../images/complete2.jpg',0)"><img src="../images/complete1.jpg" width="109" height="29" id="Image4"></a></div>
+<div id="clear" style="height:1px;"></div>
+<div id="project_btn" style="display:none"><div id="project_btn_text">Mittal Commercia</div><div id="project_btn_text">Mittal Commercia</div></div>
+</div>
+</div>
+<div id="overview_left2c"></div>
+<div id="overview_left2a">
+        
+    <div class="scroll-pane">
+      <p class="grey13" style="margin-top:5px;"><span class="black16_d">MITTAL GRANDEUR</span><br>
+      <span class="black16a_d">Cuffe Parade, Mumbai</span><br>
+
+        <br>
+ Over five decades ago the &quot;Mittal Brother's&quot;, saw a great opportunity in India's growth story. Mittal Builders were India's foremost developers to offer housing for sale in the country. Our Group is primarily involved in development and the sale & leasing of residential, commercial and industrial properties. Our group's efforts are spread far and wide across the country with footprints in Mumbai, Thane, Pune, Delhi, Bangalore, Hyderabad and Nagpur.<br>
+        A unique characteristic of mittal Builders is that at any given point, we cater to all strata's of society, offering housing opportunities to the lower and middle income groups as well as the elite.Having developed over 50 million square feet in more than 2000 buildings, the Mittal Builders have premium value associated with their name. Many of our buildings stand as landmarks in their own right. Blessed with incredible<br>
+        <span class="black13">Journey & Philosophy</span><br>
+        Enterprising as being in the age of &quot;pagadi&quot; (tenancy), we were the first to offer housing for sale in the country. Through generations now, we have carried on our tradition for outstanding quality, use of world class 
+      </p>
+    </div>
+  </div>
+  <div id="productprice_box1">
+  <div id="gallery" class="ad-gallery">
+    <div class="ad-image-wrapper"></div>
+    <div class="ad-nav">
+      <div class="ad-thumbs">
+        <ul class="ad-thumb-list">
+          <li>
+            <a href="../images/slider/01.jpg">
+              <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title="">
+              </a>
+            </li>
+          <li>
+            <a href="../images/slider/02.jpg">
+              <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title="">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/03.jpg">
+             <img src="../images/slider/thum/t3.jpg"alt="" width="70" height="40"class="image8" title="">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/04.jpg">
+              <img src="../images/slider/thum/t4.jpg"alt="" width="70" height="40"class="image8" title="">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/01.jpg">
+              <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title="">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/02.jpg">
+              <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title="">
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </div></div>
+  <div id="clear" style="height:1px;"></div>
+  <div id="overview_bottom"><div id="project_bottom_btn"><a href="#">E brochure</a></div><div id="project_bottom_btn">|</div><div id="project_bottom_btn"><a href="#">View Map</a></div><div id="project_bottom_btn">|</div><div id="project_bottom_btn"><div id='basic-modals'><a href='#' class='basics'>View Floor Plan</a></div></div></div>
+
+      
+</div>
+</body>
+</html>
+
+<div id="basic-modal-contents" style="display:none;">
+<div id="modal_s6">
+<div id="close_icon_l" style="position:absolute; z-index:999; right:0px; top:0px;"><a href="#" style="cursor:pointer;" ><img src="../images/btn_close.jpg" width="27" height="27"></a></div><div id="clear"></div>
+<div id="containerslide2"><img src="../images/floor_plan.jpg" width="390" height="446"></div>
+</div>
+</div>
+<script type='text/javascript' src='../js/jquery.simplemodal.js'></script>
+<script type='text/javascript' src='../js/basic.js'></script>

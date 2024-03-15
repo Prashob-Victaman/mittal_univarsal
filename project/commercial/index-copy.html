@@ -1,0 +1,1694 @@
+<!doctype html>
+<html>
+<head>
+<title>Mittal Universal</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="../css/jquery.ad-gallery.css">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+		<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>-->
+        <script type="text/javascript" src="../js/jquery-1.5.1.js"></script>
+        
+    <script>
+    $(document).ready(function(){
+var inner = $('#wrapper'),
+    ht = inner.height();
+
+inner.css({'position':'absolute','top':'57%','margin':-ht/2+'px 0 0 0'});
+
+});
+
+    </script>
+
+ 
+ <script language="Javascript">
+
+<!--
+
+function toggleDiv(id,flagit) {
+
+if (flagit=="1"){
+	
+if (document.layers) document.layers[''+id+''].visibility = "show"
+
+else if (document.all) document.all[''+id+''].style.visibility = "visible"
+
+else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "visible"
+
+}
+
+else
+
+if (flagit=="0"){
+
+if (document.layers) document.layers[''+id+''].visibility = "hide"
+
+else if (document.all) document.all[''+id+''].style.visibility = "hidden"
+
+else if (document.getElementById) document.getElementById(''+id+'').style.visibility = "hidden"
+
+}
+
+}
+
+//-->
+
+</script>
+<script>
+function a() {
+	$("#stab1-1").css("display","none");
+	$("#stab11").css("display","block");
+	$("#stab7").css("display","block");
+	$("#stab77").css("display","none");
+	$("#stab8").css("display","block");
+	$("#stab88").css("display","none");
+	$("#stab9").css("display","block");
+	$("#stab99").css("display","none");
+	}
+	
+function b() {
+	$("#stab1-1").css("display","block");
+	$("#stab11").css("display","none");
+	$("#stab7").css("display","none");
+	$("#stab77").css("display","block");
+	$("#stab8").css("display","block");
+	$("#stab88").css("display","none");
+	$("#stab9").css("display","block");
+	$("#stab99").css("display","none");
+	}
+    
+function c() {
+	$("#stab1-1").css("display","block");
+	$("#stab11").css("display","none");
+	$("#stab7").css("display","block");
+	$("#stab77").css("display","none");
+	$("#stab8").css("display","none");
+	$("#stab88").css("display","block");
+	$("#stab9").css("display","block");
+	$("#stab99").css("display","none");
+	}
+    
+function d() {
+	$("#stab1-1").css("display","block");
+	$("#stab11").css("display","none");
+	$("#stab7").css("display","block");
+	$("#stab77").css("display","none");
+	$("#stab8").css("display","block");
+	$("#stab88").css("display","none");
+	$("#stab9").css("display","none");
+	$("#stab99").css("display","block");
+	}
+    
+    
+    </script>    
+     
+     
+<script type="text/javascript" src="../js/jquery.scrollTo.js"></script>
+
+<script>
+
+$(document).ready(function() {
+$('#wrapper').scrollTo('#item1', 0);
+
+	$('a.panel').click(function () {
+
+		$('a.panel').removeClass('selected');
+		$(this).addClass('selected');
+		
+		current = $(this);
+		
+		$('#wrapper').scrollTo($(this).attr('href'), 800);		
+		
+		return false;
+	});
+
+	$(window).resize(function () {
+		resizePanel();
+	});
+	
+});
+
+function resizePanel() {
+
+	width = $(window).width();
+	height = $(window).height();
+
+	mask_width = width * $('.item').length;
+		
+	$('#debug').html(width  + ' ' + height + ' ' + mask_width);
+		
+	$('#wrapper, .item').css({width: width, height: height});
+	$('#mask').css({width: mask_width, height: height});
+	$('#wrapper').scrollTo($('a.selected').attr('href'), 0);
+		
+}
+
+</script>
+<script src="../js/jquery.ez-bg-resize.js" type="text/javascript"></script>
+	<script>
+	function rotate_bg(imn) { 
+	
+	} 
+		$(document).ready(function() {
+			
+						var BGImageArray = ["past-project-page.jpg"];
+			var BGImage = BGImageArray[Math.floor(Math.random()*BGImageArray.length)]
+
+			$("body").ezBgResize({
+				img     : "../images/" + BGImage, // Relative path example.  You could also use an absolute url (http://...).
+				opacity : 1, // Opacity. 1 = 100%.  This is optional.
+				center  : true // Boolean (true or false). This is optional. Default is true.
+			});
+
+		 
+		});
+      
+      
+	</script>
+<style>
+
+body {
+	height:100%;
+	width:100%;
+	margin:0;padding:0;
+}
+
+html {
+	overflow:hidden;
+	}
+
+
+#wrapper {
+	width:100%;
+	height:360px;
+	top:0;
+	left:0;
+	overflow:hidden;
+	position:absolute;
+}
+
+	#mask {
+		width:500%;
+		height:100%;
+	}
+
+	.item {
+		width:20%;
+		height:100%;
+		float:left;
+	}
+	
+	
+	.content {
+		width:100%;
+		height:292px;
+		margin:0 auto 0;
+		position:relative;
+		padding:30px 0 30px 0;
+	background:url(../images/contact_bg.png);
+	}
+	
+	.selected {
+		font-weight:700;
+	}
+
+	.clear {
+		clear:both;
+	}
+
+</style>
+
+<script>
+
+function aa1() {
+MM_swapImage('Image311','','../images/commercial2.jpg',1);
+MM_swapImage('Image9','','../images/projects2.jpg',1);
+}
+
+function bb1() {
+MM_swapImage('Image311','','../images/commercial1.jpg',1);
+MM_swapImage('Image9','','../images/projects1.jpg',1);
+}
+
+function aa2() {
+MM_swapImage('Image312','','../images/residential2.jpg',1);
+MM_swapImage('Image9','','../images/projects2.jpg',1);
+}
+
+function bb2() {
+MM_swapImage('Image312','','../images/residential1.jpg',1);
+MM_swapImage('Image9','','../images/projects1.jpg',1);
+}
+
+function aa3() {
+MM_swapImage('Image313','','../images/hospitality2.jpg',1);
+MM_swapImage('Image9','','../images/projects2.jpg',1);
+}
+
+function bb3() {
+MM_swapImage('Image313','','../images/hospitality1.jpg',1);
+MM_swapImage('Image9','','../images/projects1.jpg',1);
+}
+
+function aa4() {
+MM_swapImage('Image314','','../images/township2.jpg',1);
+MM_swapImage('Image9','','../images/projects2.jpg',1);
+}
+
+function bb4() {
+MM_swapImage('Image314','','../images/township1.jpg',1);
+MM_swapImage('Image9','','../images/projects1.jpg',1);
+}
+
+function hide_menu() {
+	$("#sub_tab_main2a").css("display","none");
+    MM_swapImage('image1234','','../images/projects1.jpg',1);
+	}
+	
+function show_menu() {
+	$("#sub_tab_main2a").css("display","block");
+    MM_swapImage('image1234','','../images/projects2.jpg',1);
+MM_swapImage('Image9','','../images/about1.jpg',1);
+	}
+</script>    
+     <script type="text/javascript" src="../js/script.js"></script>
+     
+<script>
+function uc() {
+	$("#upcoming1").css("display","none");
+	$("#upcoming2").css("display","block");
+	$("#upcoming_sub").css("display","block");
+	$("#ongoing1").css("display","block");
+	$("#ongoing2").css("display","none");
+	$("#ongoing_sub").css("display","none");
+	$("#complete1").css("display","block");
+	$("#complete2").css("display","none");
+	$("#complete_sub").css("display","none");
+	$("#big_box_right").css("visibility","visible");
+	$("#big_box_right2").css("visibility","hidden");
+	$("#big_box_right3").css("visibility","hidden");
+	}
+	
+function og() {
+	$("#ongoing1").css("display","none");
+	$("#ongoing2").css("display","block");
+	$("#ongoing_sub").css("display","block");
+	$("#upcoming1").css("display","block");
+	$("#upcoming2").css("display","none");
+	$("#upcoming_sub").css("display","none");
+	$("#complete1").css("display","block");
+	$("#complete2").css("display","none");
+	$("#complete_sub").css("display","none");
+	$("#big_box_right").css("visibility","hidden");
+	$("#big_box_right2").css("visibility","visible");
+	$("#big_box_right3").css("visibility","hidden");
+	}
+	
+function co() {
+	$("#ongoing1").css("display","block");
+	$("#ongoing2").css("display","none");
+	$("#ongoing_sub").css("display","none");
+	$("#upcoming1").css("display","block");
+	$("#upcoming2").css("display","none");
+	$("#upcoming_sub").css("display","none");
+	$("#complete1").css("display","none");
+	$("#complete2").css("display","block");
+	$("#complete_sub").css("display","block");
+	$("#big_box_right").css("visibility","hidden");
+	$("#big_box_right2").css("visibility","hidden");
+	$("#big_box_right3").css("visibility","visible");
+	}
+
+
+function uc2() {
+	$("#upcoming11").css("display","none");
+	$("#upcoming22").css("display","block");
+	$("#upcoming_sub2").css("display","block");
+	$("#ongoing11").css("display","block");
+	$("#ongoing22").css("display","none");
+	$("#ongoing_sub2").css("display","none");
+	$("#complete11").css("display","block");
+	$("#complete22").css("display","none");
+	$("#complete_sub2").css("display","none");
+	$("#big_box_right").css("visibility","visible");
+	$("#big_box_right2").css("visibility","hidden");
+	$("#big_box_right3").css("visibility","hidden");
+	}
+	
+function og2() {
+	$("#ongoing11").css("display","none");
+	$("#ongoing22").css("display","block");
+	$("#ongoing_sub2").css("display","block");
+	$("#upcoming11").css("display","block");
+	$("#upcoming22").css("display","none");
+	$("#upcoming_sub2").css("display","none");
+	$("#complete11").css("display","block");
+	$("#complete22").css("display","none");
+	$("#complete_sub2").css("display","none");
+	$("#big_box_right").css("visibility","hidden");
+	$("#big_box_right2").css("visibility","visible");
+	$("#big_box_right3").css("visibility","hidden");
+	}
+	
+function co2() {
+	$("#ongoing11").css("display","block");
+	$("#ongoing22").css("display","none");
+	$("#ongoing_sub2").css("display","none");
+	$("#upcoming11").css("display","block");
+	$("#upcoming22").css("display","none");
+	$("#upcoming_sub2").css("display","none");
+	$("#complete11").css("display","none");
+	$("#complete22").css("display","block");
+	$("#complete_sub2").css("display","block");
+	$("#big_box_right").css("visibility","hidden");
+	$("#big_box_right2").css("visibility","hidden");
+	$("#big_box_right3").css("visibility","visible");
+	}
+</script>
+
+    <script src="../js/tabcontent.js" type="text/javascript"></script>
+    
+     <script type="text/javascript" src="../js/script.js"></script>
+
+		<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>-->
+        
+        <script type="text/javascript" src="../js/jquery.mousewheel.js"></script>
+		<!-- the jScrollPane script -->
+		<script type="text/javascript" src="../js/jquery.jscrollpane.min.js"></script>
+		<!-- scripts specific to this demo site -->
+
+		<script type="text/javascript" id="sourcecode">
+  $(function()
+			{
+				$('.scroll-pane').jScrollPane({showArrows: true});
+			});
+        </script>
+        
+<!-- styles needed by jScrollPane - include in your own sites -->
+		<link type="text/css" href="../css/jquery.jscrollpane.css" rel="stylesheet" media="all" />
+
+		<style type="text/css" id="page-css">
+			/* Styles specific to this particular page */
+			.scroll-pane
+			{
+				width: 90%;
+				height: 295px;
+				overflow: auto;
+				padding:0 25px 0 0;
+				margin:5px 0 0 0;
+			}
+			.horizontal-only
+			{
+				height: auto;
+				max-height: 295px;
+			}
+
+        </style>
+
+		<!-- latest jQuery direct from google's CDN -->
+		<!-- the mousewheel plugin -->
+<script type="text/javascript" src="../js/jquery.ad-gallery.js"></script>
+     <script type="text/javascript">
+  $(function() {
+    $('img.image1').data('ad-desc', 'Whoa! This description is set through elm.data("ad-desc") instead of using the longdesc attribute.<br>And it contains <strong>H</strong>ow <strong>T</strong>o <strong>M</strong>eet <strong>L</strong>adies... <em>What?</em> That aint what HTML stands for? Man...');
+    $('img.image1').data('ad-title', 'Title through $.data');
+    $('img.image4').data('ad-desc', 'This image is wider than the wrapper, so it has been scaled down');
+    $('img.image5').data('ad-desc', 'This image is higher than the wrapper, so it has been scaled down');
+    var galleries = $('.ad-gallery').adGallery();
+    $('#switch-effect').change(
+      function() {
+        galleries[0].settings.effect = $(this).val();
+        return false;
+      }
+    );
+    $('#toggle-slideshow').click(
+      function() {
+        galleries[0].slideshow.toggle();
+        return false;
+      }
+    );
+    $('#toggle-description').click(
+      function() {
+        if(!galleries[0].settings.description_wrapper) {
+          galleries[0].settings.description_wrapper = $('#descriptions');
+        } else {
+          galleries[0].settings.description_wrapper = false;
+        }
+        return false;
+      }
+    );
+  });
+  </script>
+        <link rel="stylesheet" href="../css/colorbox.css" />
+		<!--<script src="../js/jquery.min.js"></script>-->
+		<script src="../js/jquery.colorbox.js"></script>
+		<script>
+			$(document).ready(function(){
+				//Examples of how to assign the ColorBox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', slideshow:true});
+				$(".group33").colorbox({rel:'group33', slideshow:true});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				$(".group5").colorbox({rel:'group5', slideshow:true});
+				
+				$(".group_ucm1").colorbox({rel:'group_ucm1', slideshow:true});
+				$(".group_ucfp1").colorbox({rel:'group_ucfp1', slideshow:true});
+				$(".group_ucm2").colorbox({rel:'group_ucm2', slideshow:true});
+				$(".group_ucfp2").colorbox({rel:'group_ucfp2', slideshow:true});
+				
+				$(".group_ogm1").colorbox({rel:'group_ogm1', slideshow:true});
+				$(".group_ogfp1").colorbox({rel:'group_ogfp1', slideshow:true});
+				$(".group_ogm2").colorbox({rel:'group_ogm2', slideshow:true});
+				$(".group_ogfp2").colorbox({rel:'group_ogfp2', slideshow:true});
+
+				$(".group_com1").colorbox({rel:'group_com1', slideshow:true});
+				$(".group_cofp1").colorbox({rel:'group_cofp1', slideshow:true});
+				$(".group_com2").colorbox({rel:'group_com2', slideshow:true});
+				$(".group_cofp2").colorbox({rel:'group_cofp2', slideshow:true});
+	
+				
+				$(".ajax").colorbox();
+				$(".youtube").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>   
+      
+<!--[if IE 7]>
+<style>
+#big_box_right {
+		width:auto;
+		height:auto;
+		float:left;
+		position:absolute;
+		margin:0 0 0 0;
+	}
+	
+#big_box_right2 {
+		width:auto;
+		height:auto;
+		float:left;
+		/*background-color:#360;*/
+		visibility:hidden;
+		position:absolute;
+		margin:0 0 0 0;
+	}
+
+#big_box_right3 {
+		width:auto;
+		height:auto;
+		float:left;
+		/*background-color:#660;*/
+		visibility:hidden;
+		position:absolute;
+		margin:0 0 0 0;
+	}
+</style>  
+<![endif]-->
+
+</head>
+
+<body>
+<div id="d_wrap">
+  <div id="logo" style="position:fixed; z-index:10;"> <a href="http://skarma.com/clients/mittal"><img src="../images/logo.png" width="263" height="96" style="padding:20px 0 0 20px; border:none"></a> </div>
+  <div id="menu_my" style="position:fixed; z-index:11; margin:116px 0 0 0; right:0;">
+<div id="tab1"><a href="http://skarma.com/clients/mittal" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','../images/home2.jpg',1)"><img src="../images/home1.jpg" width="72" height="22" id="Image34" style="border:none;"></a></div>
+<div id="devider"><img src="../images/devider.jpg" width="1" height="22"></div>
+
+<ul class="menu2" id="menu3"><li><div id="tab2">
+<a href="http://skarma.com/clients/mittal/about/" onMouseOut="MM_swapImgRestore(); show_menu()" class="menulink" onMouseOver="MM_swapImage('Image9','','../images/about2.jpg',1); hide_menu()"><img src="../images/about1.jpg" name="Image9" width="70" height="22" id="Image9" style="border:none;"></a>
+
+<ul style="position:absolute;  margin:0 0 0 -482px;">
+<li style="width:553px;">
+
+<div id="Pstab5"><a href="#" onMouseOut="bb1(); show_menu()" onMouseOver="aa1(); hide_menu()"><img src="../images/overview1.jpg" width="103" height="22" id="Image311" style="border:none;"></a></div>
+
+<div id="devider2" onMouseOver="hide_menu()" onMouseOut="show_menu()"><img src="../images/devider2.jpg" width="1" height="22"></div>
+
+<div id="Pstab6"><a href="#" onMouseOut="bb2(); show_menu()" onMouseOver="aa2(); hide_menu()"><img src="../images/vandm1.jpg" width="147" height="22" id="Image312" style="border:none;"></a></div>
+
+<div id="devider2" onMouseOver="hide_menu()" onMouseOut="show_menu()"><img src="../images/devider2.jpg" width="1" height="22"></div>
+
+<div id="Pstab7"><a href="#" onMouseOut="bb3(); show_menu()" onMouseOver="aa3(); hide_menu()"><img src="../images/history1.jpg" width="94" height="22" id="Image313" style="border:none;"></a></div>
+
+<div id="devider2" onMouseOver="hide_menu()" onMouseOut="show_menu()"><img src="../images/devider2.jpg" width="1" height="22"></div>
+
+<div id="Pstab8"><a href="#" onMouseOut="bb4(); show_menu()" onMouseOver="aa4(); hide_menu()"><img src="../images/brand1.jpg" width="114" height="22" id="Image314" style="border:none;"></a></div>
+
+<div id="devider2" onMouseOver="hide_menu()" onMouseOut="show_menu()"><img src="../images/devider2.jpg" width="1" height="22"></div>
+
+<div id="Pstab9"><a href="#" onMouseOut="bb5(); show_menu()" onMouseOver="aa5(); hide_menu()"><img src="../images/social1.jpg" width="91" height="22" id="Image315" style="border:none;"></a></div>
+</li>
+</ul>
+</div>
+
+</li></ul>
+<div id="devider"><img src="../images/devider.jpg" width="1" height="22"></div>
+<div id="tab3"><img src="../images/projects2.jpg" width="92" height="22" id="image1234"></div>
+
+
+
+<div id="devider"><img src="../images/devider.jpg" width="1" height="22"></div>
+
+<div id="tab4"><a href="http://skarma.com/clients/mittal/past_projects/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','../images/past_projects2.jpg',1)"><img src="../images/past_projects1.jpg" name="Image11" width="124" height="22" id="Image11" style="border:none;"></a></div>
+<div id="devider"><img src="../images/devider.jpg" width="1" height="22"></div>
+<div id="tab5"><a href="http://skarma.com/clients/mittal/contact" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3636','','../images/contact2.jpg',1)"><img src="../images/contact1.jpg" width="90" height="22" id="Image3636" style="border:none;"></a></div>
+</div>
+  
+  <div id="clear"></div>
+  <div id="sub_tab_main2a" onMouseOver="toggleDiv('sub_tab_main1',1)" onMouseOut="toggleDiv('sub_tab_main1a',0)">
+  
+  <div id="stab1-1"><a href="#item1" class="panel" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2711','','../images/commercial2.jpg',1)" onClick="a()"><img src="../images/commercial1.jpg" width="108" height="22" id="Image2711" style="border:none;"></a></div>
+  <div id="stab11"><img src="../images/commercial2.jpg" width="108" height="22"></div>
+  
+  <div id="devider2"><img src="../images/devider2.jpg" width="1" height="22"></div>
+  
+  <div id="stab7"><a href="#item2" class="panel" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2712','','../images/residential2.jpg',1)" onClick="b()"><img src="../images/residential1.jpg" name="Image2712" width="106" height="22" id="Image2712" style="border:none;"></a></div>
+  <div id="stab77"><img src="../images/residential2.jpg" width="106" height="22"></div>
+  
+  <div id="devider2"><img src="../images/devider2.jpg" width="1" height="22"></div>
+  
+  <div id="stab8"><a href="#item3" class="panel" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2713','','../images/hospitality2.jpg',1)" onClick="c()"><img src="../images/hospitality1.jpg" name="Image2713" width="104" height="22" id="Image2713" style="border:none;"></a></div>
+  <div id="stab88"><img src="../images/hospitality2.jpg" width="104" height="22"></div>
+  
+  <div id="devider2"><img src="../images/devider2.jpg" width="1" height="22"></div>
+  
+  <div id="stab9"><a href="#item4" class="panel" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2714','','../images/township2.jpg',1)" onClick="d()"><img src="../images/township1.jpg" name="Image2714" width="93" height="22" id="Image2714" style="border:none;"></a></div>
+  <div id="stab99"><img src="../images/township2.jpg" width="93" height="22"></div>   
+  </div>
+  
+  <div id="wrapper1">
+    
+    <div id="mask">
+      
+      <div id="item1" class="item" style="display:none;">
+        
+        <a name="item1"></a>
+        <div class="content">
+        
+        
+        
+        <div id="content">
+<div id="d_wrap1">
+<div id="overview_left2b">
+<div id="upcoming1"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image50','','../images/upcoming2.jpg',0)" onClick="uc()"><img src="../images/upcoming1.jpg" name="Image50" width="104" height="27" id="Image50" style="border:none;"></a></div>
+<div id="upcoming2"><img src="../images/upcoming2.jpg" width="104" height="27"></div>
+<div id="upcoming_sub"><ul class="tabs" style="margin:0px; padding:0px;">
+    <li><a href="#" rel="view1">Tab 1</a></li><br>
+    <li><a href="#" rel="view2">Tab 2</a></li>
+</ul></div>
+<div id="ongoing1"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image471','','../images/ongoing2.jpg',1)" onClick="og()"><img src="../images/ongoing1.jpg" name="Image47" width="104" height="27" id="Image47" style="border:none;"></a></div>
+<div id="ongoing2"><img src="../images/ongoing2.jpg" width="104" height="27"></div>
+<div id="ongoing_sub">
+  <ul class="tabs">
+    <li><a href="#" rel="view11">Tab 1</a></li><br>
+    <li><a href="#" rel="view22">Tab 2</a></li>
+  </ul>
+</div>
+<div id="complete11"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image444','','../images/complete2.jpg',0)" onClick="co()"><img src="../images/complete1.jpg" name="Image444" width="104" height="27" id="Image444" style="border:none;"></a></div>
+<div id="complete2"><img src="../images/complete2.jpg" width="104" height="27"></div>
+<div id="complete_sub">
+  <ul class="tabs">
+    <li><a href="#" rel="view111">Tab 1</a></li><br>
+    <li><a href="#" rel="view222">Tab 2</a></li>
+  </ul>
+</div>
+</div>
+<div id="overview_left2c"></div>
+
+<!--------------------------------------------------Upcoming box start here-------------------------------------------->
+
+<div id="big_box_right" class="tabcontents1">
+<div id="view1" class="tabcontent">
+<div id="overview_left2a">
+<div class="scroll-pane">
+      <p style="margin:0px; padding:0px;">
+      
+      <div style="float:left; width:100%; height:auto;" class="black16_d">MITTAL GRANDEUR</div><br>
+      <div style="float:left; width:100%; height:auto; margin:0 0 10px 0;" class="black16a_d">CUFFE PARADE, MUMBAI</div>
+      <div style="float:left; width:100%; height:auto; padding:0 0 15px 0;" class="grey13">
+ Over five decades ago the &quot;Mittal Brother's&quot;, saw a great opportunity in India's growth story. Mittal Builders were India's foremost developers to offer housing for sale in the country. Our Group is primarily involved in development and the sale & leasing of residential, commercial and industrial properties. Our group's efforts are spread far and wide across the country with footprints in Mumbai, Thane, Pune, Delhi, Bangalore, Hyderabad and Nagpur.<br>
+        A unique characteristic of mittal Builders is that at any given point, we cater to all strata's of society, offering housing opportunities to the lower and middle income groups as well as the elite.Having developed over 50 million square feet in more than 2000 buildings, the Mittal Builders have premium value associated with their name. Many of our buildings stand as landmarks in their own right. Blessed with incredible<br>
+        <span class="black13">Journey & Philosophy</span><br>
+        Enterprising as being in the age of &quot;pagadi&quot; (tenancy), we were the first to offer housing for sale in the country. Through generations now, we have carried on our tradition for outstanding quality, use of world class </div>
+      </p>
+    </div>
+  </div>
+  <div id="overview_right2">
+  <div id="big_gallery"><a href="slide.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','../images/small_screen_1.png',0)"><img src="../images/small_screen.png" name="Image46" width="40" height="26" id="Image46" style="border:none;"></a></div>
+  <div id="productprice_box1">
+  <div id="gallery" class="ad-gallery">
+    <div class="ad-image-wrapper"></div>
+    <div class="ad-nav">
+      <div class="ad-thumbs">
+        <ul class="ad-thumb-list">
+          <li>
+            <a href="../images/slider/01.jpg">
+              <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+          <li>
+            <a href="../images/slider/02.jpg">
+              <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/03.jpg">
+             <img src="../images/slider/thum/t3.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/04.jpg">
+              <img src="../images/slider/thum/t4.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/05.jpg">
+              <img src="../images/slider/thum/t5.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/01.jpg">
+              <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/02.jpg">
+              <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </div></div></div>
+  <div id="clear"></div>
+  <div id="overview_bottom">
+  <div id="project_bottom_btn_new"><a href="BOOKLET.pdf" target="_blank">E brochure</a></div>
+  <div id="project_bottom_btn">|</div>
+  <div id="project_bottom_btn_new"> <a class="group_ucm1"  href="../images/view_map.jpg" title="">View Map</a></div>
+  <div id="project_bottom_btn">|</div>
+  <div id="project_bottom_btn_new"> <a class="group_ucfp1"  href="../images/floor_plan1.jpg" title="">View Floor Plan</a>
+  <p style="display:none;"><a class="group_ucfp1"  href="../images/floor_plan2.jpg" title="">View Floor Plan2</a></p>
+  <p style="display:none;"><a class="group_ucfp1"  href="../images/floor_plan3.jpg" title="">View Floor Plan3</a></p></div></div>
+ </div> 
+ 
+ <div id="view2" class="tabcontent">
+ <!------------------------------------------------------------> 
+ <div id="overview_left2a">
+  <div class="scroll-pane">
+    <p style="margin:0px; padding:0px;">
+      
+      <div style="float:left; width:100%; height:auto;" class="black16_d">MITTAL GRANDEUR</div><br>
+    <div style="float:left; width:100%; height:auto; margin:0 0 10px 0;" class="black16a_d">CUFFE PARADE, MUMBAI</div>
+    <div style="float:left; width:100%; height:auto; padding:0 0 15px 0;" class="grey13">
+      aaaaaaaaaaaaaaaaOver five decades ago the &quot;Mittal Brother's&quot;, saw a great opportunity in India's growth story. Mittal Builders were India's foremost developers to offer housing for sale in the country. Our Group is primarily involved in development and the sale & leasing of residential, commercial and industrial properties. Our group's efforts are spread far and wide across the country with footprints in Mumbai, Thane, Pune, Delhi, Bangalore, Hyderabad and Nagpur.<br>
+      A unique characteristic of mittal Builders is that at any given point, we cater to all strata's of society, offering housing opportunities to the lower and middle income groups as well as the elite.Having developed over 50 million square feet in more than 2000 buildings, the Mittal Builders have premium value associated with their name. Many of our buildings stand as landmarks in their own right. Blessed with incredible<br>
+      <span class="black13">Journey & Philosophy</span><br>
+      Enterprising as being in the age of &quot;pagadi&quot; (tenancy), we were the first to offer housing for sale in the country. Through generations now, we have carried on our tradition for outstanding quality, use of world class </div>
+    </p>
+    </div>
+ </div>
+  <div id="overview_right2">
+    <div id="big_gallery"><a href="slide.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','../images/small_screen_1.png',0)"><img src="../images/small_screen.png" name="Image46" width="40" height="26" id="Image46" style="border:none;"></a></div>
+    <div id="productprice_box1">
+      <div id="gallery" class="ad-gallery">
+        <div class="ad-image-wrapper"></div>
+        <div class="ad-nav">
+          <div class="ad-thumbs">
+            <ul class="ad-thumb-list">
+              <li>
+                <a href="../images/slider/01.jpg">
+                  <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/02.jpg">
+                  <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/03.jpg">
+                  <img src="../images/slider/thum/t3.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/04.jpg">
+                  <img src="../images/slider/thum/t4.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/05.jpg">
+                  <img src="../images/slider/thum/t5.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/01.jpg">
+                  <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/02.jpg">
+                  <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </div></div></div>
+  <div id="clear"></div>
+  <div id="overview_bottom">
+    <div id="project_bottom_btn_new"><a href="BOOKLET.pdf" target="_blank">E brochure</a></div>
+    <div id="project_bottom_btn">|</div>
+    <div id="project_bottom_btn_new"> <a class="group_ucm2"  href="../images/view_map.jpg" title="">View Map</a></div>
+    <div id="project_bottom_btn">|</div>
+    <div id="project_bottom_btn_new"> <a class="group_ucfp2"  href="../images/floor_plan1.jpg" title="">View Floor Plan</a>
+      <p style="display:none;"><a class="group_ucfp2"  href="../images/floor_plan2.jpg" title="">View Floor Plan2</a></p>
+      <p style="display:none;"><a class="group_ucfp2"  href="../images/floor_plan3.jpg" title="">View Floor Plan3</a></p></div></div>
+ 
+</div>
+  
+</div>
+<!--------------------------------------------------Upcoming box end here-------------------------------------------->
+
+
+<!--------------------------------------------------Ongoing box start here------------------------------------------->
+
+<div id="big_box_right2" class="tabcontents1">
+<div id="view11" class="tabcontent1">
+<div id="overview_left2a">
+<div class="scroll-pane">
+      <p style="margin:0px; padding:0px;">
+      
+      <div style="float:left; width:100%; height:auto;" class="black16_d">MITTAL GRANDEUR</div><br>
+      <div style="float:left; width:100%; height:auto; margin:0 0 10px 0;" class="black16a_d">CUFFE PARADE, MUMBAI</div>
+      <div style="float:left; width:100%; height:auto; padding:0 0 15px 0;" class="grey13">
+ Over five decades ago the &quot;Mittal Brother's&quot;, saw a great opportunity in India's growth story. Mittal Builders were India's foremost developers to offer housing for sale in the country. Our Group is primarily involved in development and the sale & leasing of residential, commercial and industrial properties. Our group's efforts are spread far and wide across the country with footprints in Mumbai, Thane, Pune, Delhi, Bangalore, Hyderabad and Nagpur.<br>
+        A unique characteristic of mittal Builders is that at any given point, we cater to all strata's of society, offering housing opportunities to the lower and middle income groups as well as the elite.Having developed over 50 million square feet in more than 2000 buildings, the Mittal Builders have premium value associated with their name. Many of our buildings stand as landmarks in their own right. Blessed with incredible<br>
+        <span class="black13">Journey & Philosophy</span><br>
+        Enterprising as being in the age of &quot;pagadi&quot; (tenancy), we were the first to offer housing for sale in the country. Through generations now, we have carried on our tradition for outstanding quality, use of world class </div>
+      </p>
+    </div>
+  </div>
+  <div id="overview_right2">
+  <div id="big_gallery"><a href="slide.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','../images/small_screen_1.png',0)"><img src="../images/small_screen.png" name="Image46" width="40" height="26" id="Image46" style="border:none;"></a></div>
+  <div id="productprice_box1">
+  <div id="gallery" class="ad-gallery">
+    <div class="ad-image-wrapper"></div>
+    <div class="ad-nav">
+      <div class="ad-thumbs">
+        <ul class="ad-thumb-list">
+          <li>
+            <a href="../images/slider/01.jpg">
+              <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+          <li>
+            <a href="../images/slider/02.jpg">
+              <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/03.jpg">
+             <img src="../images/slider/thum/t3.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/04.jpg">
+              <img src="../images/slider/thum/t4.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/05.jpg">
+              <img src="../images/slider/thum/t5.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/01.jpg">
+              <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/02.jpg">
+              <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </div></div></div>
+  <div id="clear"></div>
+  <div id="overview_bottom">
+  <div id="project_bottom_btn_new"><a href="BOOKLET.pdf" target="_blank">E brochure</a></div>
+  <div id="project_bottom_btn">|</div>
+  <div id="project_bottom_btn_new"> <a class="group_ogm1"  href="../images/view_map.jpg" title="">View Map</a></div>
+  <div id="project_bottom_btn">|</div>
+  <div id="project_bottom_btn_new"> <a class="group_ogfp1"  href="../images/floor_plan1.jpg" title="">View Floor Plan</a>
+  <p style="display:none;"><a class="group_ogfp1"  href="../images/floor_plan2.jpg" title="">View Floor Plan2</a></p>
+  <p style="display:none;"><a class="group_ogfp1"  href="../images/floor_plan3.jpg" title="">View Floor Plan3</a></p></div></div>
+ </div> 
+ 
+ <div id="view22" class="tabcontent1">
+ <!------------------------------------------------------------> 
+ <div id="overview_left2a">
+  <div class="scroll-pane">
+    <p style="margin:0px; padding:0px;">
+      
+      <div style="float:left; width:100%; height:auto;" class="black16_d">MITTAL GRANDEUR</div><br>
+    <div style="float:left; width:100%; height:auto; margin:0 0 10px 0;" class="black16a_d">CUFFE PARADE, MUMBAI</div>
+    <div style="float:left; width:100%; height:auto; padding:0 0 15px 0;" class="grey13">
+      aaaaaaaaaaaaaaaaOver five decades ago the &quot;Mittal Brother's&quot;, saw a great opportunity in India's growth story. Mittal Builders were India's foremost developers to offer housing for sale in the country. Our Group is primarily involved in development and the sale & leasing of residential, commercial and industrial properties. Our group's efforts are spread far and wide across the country with footprints in Mumbai, Thane, Pune, Delhi, Bangalore, Hyderabad and Nagpur.<br>
+      A unique characteristic of mittal Builders is that at any given point, we cater to all strata's of society, offering housing opportunities to the lower and middle income groups as well as the elite.Having developed over 50 million square feet in more than 2000 buildings, the Mittal Builders have premium value associated with their name. Many of our buildings stand as landmarks in their own right. Blessed with incredible<br>
+      <span class="black13">Journey & Philosophy</span><br>
+      Enterprising as being in the age of &quot;pagadi&quot; (tenancy), we were the first to offer housing for sale in the country. Through generations now, we have carried on our tradition for outstanding quality, use of world class </div>
+    </p>
+    </div>
+ </div>
+  <div id="overview_right2">
+    <div id="big_gallery"><a href="slide.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','../images/small_screen_1.png',0)"><img src="../images/small_screen.png" name="Image46" width="40" height="26" id="Image46" style="border:none;"></a></div>
+    <div id="productprice_box1">
+      <div id="gallery" class="ad-gallery">
+        <div class="ad-image-wrapper"></div>
+        <div class="ad-nav">
+          <div class="ad-thumbs">
+            <ul class="ad-thumb-list">
+              <li>
+                <a href="../images/slider/01.jpg">
+                  <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/02.jpg">
+                  <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/03.jpg">
+                  <img src="../images/slider/thum/t3.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/04.jpg">
+                  <img src="../images/slider/thum/t4.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/05.jpg">
+                  <img src="../images/slider/thum/t5.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/01.jpg">
+                  <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/02.jpg">
+                  <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </div></div></div>
+  <div id="clear"></div>
+  <div id="overview_bottom">
+    <div id="project_bottom_btn_new"><a href="BOOKLET.pdf" target="_blank">E brochure</a></div>
+    <div id="project_bottom_btn">|</div>
+    <div id="project_bottom_btn_new"> <a class="group_ogm2"  href="../images/view_map.jpg" title="">View Map</a></div>
+    <div id="project_bottom_btn">|</div>
+    <div id="project_bottom_btn_new"> <a class="group_fp2"  href="../images/floor_plan1.jpg" title="">View Floor Plan</a>
+      <p style="display:none;"><a class="group_fp2"  href="../images/floor_plan2.jpg" title="">View Floor Plan2</a></p>
+      <p style="display:none;"><a class="group_fp2"  href="../images/floor_plan3.jpg" title="">View Floor Plan3</a></p></div></div>
+ 
+</div>
+  
+</div>
+<!--------------------------------------------------Ongoing box end here-------------------------------------------->
+
+
+
+<!--------------------------------------------------Complete box start here------------------------------------------->
+
+<div id="big_box_right3" class="tabcontents1">
+<div id="view111" class="tabcontent3">
+<div id="overview_left2a">
+<div class="scroll-pane">
+      <p style="margin:0px; padding:0px;">
+      
+      <div style="float:left; width:100%; height:auto;" class="black16_d">MITTAL GRANDEUR</div><br>
+      <div style="float:left; width:100%; height:auto; margin:0 0 10px 0;" class="black16a_d">CUFFE PARADE, MUMBAI</div>
+      <div style="float:left; width:100%; height:auto; padding:0 0 15px 0;" class="grey13">
+ Over five decades ago the &quot;Mittal Brother's&quot;, saw a great opportunity in India's growth story. Mittal Builders were India's foremost developers to offer housing for sale in the country. Our Group is primarily involved in development and the sale & leasing of residential, commercial and industrial properties. Our group's efforts are spread far and wide across the country with footprints in Mumbai, Thane, Pune, Delhi, Bangalore, Hyderabad and Nagpur.<br>
+        A unique characteristic of mittal Builders is that at any given point, we cater to all strata's of society, offering housing opportunities to the lower and middle income groups as well as the elite.Having developed over 50 million square feet in more than 2000 buildings, the Mittal Builders have premium value associated with their name. Many of our buildings stand as landmarks in their own right. Blessed with incredible<br>
+        <span class="black13">Journey & Philosophy</span><br>
+        Enterprising as being in the age of &quot;pagadi&quot; (tenancy), we were the first to offer housing for sale in the country. Through generations now, we have carried on our tradition for outstanding quality, use of world class </div>
+      </p>
+    </div>
+  </div>
+  <div id="overview_right2">
+  <div id="big_gallery"><a href="slide.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','../images/small_screen_1.png',0)"><img src="../images/small_screen.png" name="Image46" width="40" height="26" id="Image46" style="border:none;"></a></div>
+  <div id="productprice_box1">
+  <div id="gallery" class="ad-gallery">
+    <div class="ad-image-wrapper"></div>
+    <div class="ad-nav">
+      <div class="ad-thumbs">
+        <ul class="ad-thumb-list">
+          <li>
+            <a href="../images/slider/01.jpg">
+              <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+          <li>
+            <a href="../images/slider/02.jpg">
+              <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/03.jpg">
+             <img src="../images/slider/thum/t3.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/04.jpg">
+              <img src="../images/slider/thum/t4.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/05.jpg">
+              <img src="../images/slider/thum/t5.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/01.jpg">
+              <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/02.jpg">
+              <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </div></div></div>
+  <div id="clear"></div>
+  <div id="overview_bottom">
+  <div id="project_bottom_btn_new"><a href="BOOKLET.pdf" target="_blank">E brochure</a></div>
+  <div id="project_bottom_btn">|</div>
+  <div id="project_bottom_btn_new"> <a class="group_com1"  href="../images/view_map.jpg" title="">View Map</a></div>
+  <div id="project_bottom_btn">|</div>
+  <div id="project_bottom_btn_new"> <a class="group_cofp1"  href="../images/floor_plan1.jpg" title="">View Floor Plan</a>
+  <p style="display:none;"><a class="group_cofp1"  href="../images/floor_plan2.jpg" title="">View Floor Plan2</a></p>
+  <p style="display:none;"><a class="group_cofp1"  href="../images/floor_plan3.jpg" title="">View Floor Plan3</a></p></div></div>
+ </div> 
+ 
+ <div id="view222" class="tabcontent3">
+ <!------------------------------------------------------------> 
+ <div id="overview_left2a">
+  <div class="scroll-pane">
+    <p style="margin:0px; padding:0px;">
+      
+      <div style="float:left; width:100%; height:auto;" class="black16_d">MITTAL GRANDEUR</div><br>
+    <div style="float:left; width:100%; height:auto; margin:0 0 10px 0;" class="black16a_d">CUFFE PARADE, MUMBAI</div>
+    <div style="float:left; width:100%; height:auto; padding:0 0 15px 0;" class="grey13">
+      aaaaaaaaaaaaaaaaOver five decades ago the &quot;Mittal Brother's&quot;, saw a great opportunity in India's growth story. Mittal Builders were India's foremost developers to offer housing for sale in the country. Our Group is primarily involved in development and the sale & leasing of residential, commercial and industrial properties. Our group's efforts are spread far and wide across the country with footprints in Mumbai, Thane, Pune, Delhi, Bangalore, Hyderabad and Nagpur.<br>
+      A unique characteristic of mittal Builders is that at any given point, we cater to all strata's of society, offering housing opportunities to the lower and middle income groups as well as the elite.Having developed over 50 million square feet in more than 2000 buildings, the Mittal Builders have premium value associated with their name. Many of our buildings stand as landmarks in their own right. Blessed with incredible<br>
+      <span class="black13">Journey & Philosophy</span><br>
+      Enterprising as being in the age of &quot;pagadi&quot; (tenancy), we were the first to offer housing for sale in the country. Through generations now, we have carried on our tradition for outstanding quality, use of world class </div>
+    </p>
+    </div>
+ </div>
+  <div id="overview_right2">
+    <div id="big_gallery"><a href="slide.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','../images/small_screen_1.png',0)"><img src="../images/small_screen.png" name="Image46" width="40" height="26" id="Image46" style="border:none;"></a></div>
+    <div id="productprice_box1">
+      <div id="gallery" class="ad-gallery">
+        <div class="ad-image-wrapper"></div>
+        <div class="ad-nav">
+          <div class="ad-thumbs">
+            <ul class="ad-thumb-list">
+              <li>
+                <a href="../images/slider/01.jpg">
+                  <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/02.jpg">
+                  <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/03.jpg">
+                  <img src="../images/slider/thum/t3.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/04.jpg">
+                  <img src="../images/slider/thum/t4.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/05.jpg">
+                  <img src="../images/slider/thum/t5.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/01.jpg">
+                  <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/02.jpg">
+                  <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </div></div></div>
+  <div id="clear"></div>
+  <div id="overview_bottom">
+    <div id="project_bottom_btn_new"><a href="BOOKLET.pdf" target="_blank">E brochure</a></div>
+    <div id="project_bottom_btn">|</div>
+    <div id="project_bottom_btn_new"> <a class="group_com2"  href="../images/view_map.jpg" title="">View Map</a></div>
+    <div id="project_bottom_btn">|</div>
+    <div id="project_bottom_btn_new"> <a class="group_cofp2"  href="../images/floor_plan1.jpg" title="">View Floor Plan</a>
+      <p style="display:none;"><a class="group_cofp2"  href="../images/floor_plan2.jpg" title="">View Floor Plan2</a></p>
+      <p style="display:none;"><a class="group_cofp2"  href="../images/floor_plan3.jpg" title="">View Floor Plan3</a></p></div></div>
+ 
+</div>
+  
+</div>
+
+<!--------------------------------------------------Complete box end here-------------------------------------------->
+
+
+</div>
+        
+        
+        </div>
+        </div>
+      </div>
+      <div id="item2" class="item">
+        <a name="item2"></a>
+        <div class="content">
+        
+        
+        <div id="d_wrap1">
+<div id="overview_left2b">
+<div id="upcoming11"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image501','','../images/upcoming2.jpg',0)" onClick="uc2()"><img src="../images/upcoming1.jpg" name="Image501" width="104" height="27" id="Image501" style="border:none;"></a></div>
+<div id="upcoming22"><img src="../images/upcoming2.jpg" width="104" height="27"></div>
+<div id="upcoming_sub2"><ul class="tabs" style="margin:0px; padding:0px;">
+    <li><a href="#" rel="view1">Tab 1</a></li><br>
+    <li><a href="#" rel="view2">Tab 2</a></li>
+</ul></div>
+<div id="ongoing11"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image471','','../images/ongoing2.jpg',1)" onClick="og()"><img src="../images/ongoing1.jpg" name="Image471" width="104" height="27" id="Image47" style="border:none;"></a></div>
+<div id="ongoing22"><img src="../images/ongoing2.jpg" width="104" height="27"></div>
+<div id="ongoing_sub2">
+  <ul class="tabs">
+    <li><a href="#" rel="view11">Tab 1</a></li><br>
+    <li><a href="#" rel="view22">Tab 2</a></li>
+  </ul>
+</div>
+<div id="complete11"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4441','','../images/complete2.jpg',0)" onClick="co()"><img src="../images/complete1.jpg" name="Image4441" width="104" height="27" id="Image444" style="border:none;"></a></div>
+<div id="complete22"><img src="../images/complete2.jpg" width="104" height="27"></div>
+<div id="complete_sub2">
+  <ul class="tabs">
+    <li><a href="#" rel="view111">Tab 1</a></li><br>
+    <li><a href="#" rel="view222">Tab 2</a></li>
+  </ul>
+</div>
+</div>
+<div id="overview_left2c"></div>
+
+<!--------------------------------------------------Upcoming box start here-------------------------------------------->
+
+<div id="big_box_right" class="tabcontents1">
+<div id="view1" class="tabcontent">
+<div id="overview_left2a">
+<div class="scroll-pane">
+      <p style="margin:0px; padding:0px;">
+      
+      <div style="float:left; width:100%; height:auto;" class="black16_d">MITTAL GRANDEUR</div><br>
+      <div style="float:left; width:100%; height:auto; margin:0 0 10px 0;" class="black16a_d">CUFFE PARADE, MUMBAI</div>
+      <div style="float:left; width:100%; height:auto; padding:0 0 15px 0;" class="grey13">
+ Over five decades ago the &quot;Mittal Brother's&quot;, saw a great opportunity in India's growth story. Mittal Builders were India's foremost developers to offer housing for sale in the country. Our Group is primarily involved in development and the sale & leasing of residential, commercial and industrial properties. Our group's efforts are spread far and wide across the country with footprints in Mumbai, Thane, Pune, Delhi, Bangalore, Hyderabad and Nagpur.<br>
+        A unique characteristic of mittal Builders is that at any given point, we cater to all strata's of society, offering housing opportunities to the lower and middle income groups as well as the elite.Having developed over 50 million square feet in more than 2000 buildings, the Mittal Builders have premium value associated with their name. Many of our buildings stand as landmarks in their own right. Blessed with incredible<br>
+        <span class="black13">Journey & Philosophy</span><br>
+        Enterprising as being in the age of &quot;pagadi&quot; (tenancy), we were the first to offer housing for sale in the country. Through generations now, we have carried on our tradition for outstanding quality, use of world class </div>
+      </p>
+    </div>
+  </div>
+  <div id="overview_right2">
+  <div id="big_gallery"><a href="slide.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','../images/small_screen_1.png',0)"><img src="../images/small_screen.png" name="Image46" width="40" height="26" id="Image46" style="border:none;"></a></div>
+  <div id="productprice_box1">
+  <div id="gallery" class="ad-gallery">
+    <div class="ad-image-wrapper"></div>
+    <div class="ad-nav">
+      <div class="ad-thumbs">
+        <ul class="ad-thumb-list">
+          <li>
+            <a href="../images/slider/01.jpg">
+              <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+          <li>
+            <a href="../images/slider/02.jpg">
+              <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/03.jpg">
+             <img src="../images/slider/thum/t3.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/04.jpg">
+              <img src="../images/slider/thum/t4.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/05.jpg">
+              <img src="../images/slider/thum/t5.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/01.jpg">
+              <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/02.jpg">
+              <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </div></div></div>
+  <div id="clear"></div>
+  <div id="overview_bottom">
+  <div id="project_bottom_btn_new"><a href="BOOKLET.pdf" target="_blank">E brochure</a></div>
+  <div id="project_bottom_btn">|</div>
+  <div id="project_bottom_btn_new"> <a class="group3"  href="../images/view_map.jpg" title="">View Map</a></div>
+  <div id="project_bottom_btn">|</div>
+  <div id="project_bottom_btn_new"> <a class="group4"  href="../images/floor_plan1.jpg" title="">View Floor Plan</a>
+  <p style="display:none;"><a class="group4"  href="../images/floor_plan2.jpg" title="">View Floor Plan2</a></p>
+  <p style="display:none;"><a class="group4"  href="../images/floor_plan3.jpg" title="">View Floor Plan3</a></p></div></div>
+ </div> 
+ 
+ <div id="view2" class="tabcontent">
+ <!------------------------------------------------------------> 
+ <div id="overview_left2a">
+  <div class="scroll-pane">
+    <p style="margin:0px; padding:0px;">
+      
+      <div style="float:left; width:100%; height:auto;" class="black16_d">MITTAL GRANDEUR</div><br>
+    <div style="float:left; width:100%; height:auto; margin:0 0 10px 0;" class="black16a_d">CUFFE PARADE, MUMBAI</div>
+    <div style="float:left; width:100%; height:auto; padding:0 0 15px 0;" class="grey13">
+      aaaaaaaaaaaaaaaaOver five decades ago the &quot;Mittal Brother's&quot;, saw a great opportunity in India's growth story. Mittal Builders were India's foremost developers to offer housing for sale in the country. Our Group is primarily involved in development and the sale & leasing of residential, commercial and industrial properties. Our group's efforts are spread far and wide across the country with footprints in Mumbai, Thane, Pune, Delhi, Bangalore, Hyderabad and Nagpur.<br>
+      A unique characteristic of mittal Builders is that at any given point, we cater to all strata's of society, offering housing opportunities to the lower and middle income groups as well as the elite.Having developed over 50 million square feet in more than 2000 buildings, the Mittal Builders have premium value associated with their name. Many of our buildings stand as landmarks in their own right. Blessed with incredible<br>
+      <span class="black13">Journey & Philosophy</span><br>
+      Enterprising as being in the age of &quot;pagadi&quot; (tenancy), we were the first to offer housing for sale in the country. Through generations now, we have carried on our tradition for outstanding quality, use of world class </div>
+    </p>
+    </div>
+ </div>
+  <div id="overview_right2">
+    <div id="big_gallery"><a href="slide.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','../images/small_screen_1.png',0)"><img src="../images/small_screen.png" name="Image46" width="40" height="26" id="Image46" style="border:none;"></a></div>
+    <div id="productprice_box1">
+      <div id="gallery" class="ad-gallery">
+        <div class="ad-image-wrapper"></div>
+        <div class="ad-nav">
+          <div class="ad-thumbs">
+            <ul class="ad-thumb-list">
+              <li>
+                <a href="../images/slider/01.jpg">
+                  <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/02.jpg">
+                  <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/03.jpg">
+                  <img src="../images/slider/thum/t3.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/04.jpg">
+                  <img src="../images/slider/thum/t4.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/05.jpg">
+                  <img src="../images/slider/thum/t5.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/01.jpg">
+                  <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/02.jpg">
+                  <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </div></div></div>
+  <div id="clear"></div>
+  <div id="overview_bottom">
+    <div id="project_bottom_btn_new"><a href="BOOKLET.pdf" target="_blank">E brochure</a></div>
+    <div id="project_bottom_btn">|</div>
+    <div id="project_bottom_btn_new"> <a class="group33"  href="../images/view_map.jpg" title="">View Map</a></div>
+    <div id="project_bottom_btn">|</div>
+    <div id="project_bottom_btn_new"> <a class="group5"  href="../images/floor_plan1.jpg" title="">View Floor Plan</a>
+      <p style="display:none;"><a class="group5"  href="../images/floor_plan2.jpg" title="">View Floor Plan2</a></p>
+      <p style="display:none;"><a class="group5"  href="../images/floor_plan3.jpg" title="">View Floor Plan3</a></p></div></div>
+ 
+</div>
+  
+</div>
+<!--------------------------------------------------Upcoming box end here-------------------------------------------->
+
+
+<!--------------------------------------------------Ongoing box start here------------------------------------------->
+
+<div id="big_box_right2" class="tabcontents1">
+<div id="view11" class="tabcontent1">
+<div id="overview_left2a">
+<div class="scroll-pane">
+      <p style="margin:0px; padding:0px;">
+      
+      <div style="float:left; width:100%; height:auto;" class="black16_d">MITTAL GRANDEUR</div><br>
+      <div style="float:left; width:100%; height:auto; margin:0 0 10px 0;" class="black16a_d">CUFFE PARADE, MUMBAI</div>
+      <div style="float:left; width:100%; height:auto; padding:0 0 15px 0;" class="grey13">
+ Over five decades ago the &quot;Mittal Brother's&quot;, saw a great opportunity in India's growth story. Mittal Builders were India's foremost developers to offer housing for sale in the country. Our Group is primarily involved in development and the sale & leasing of residential, commercial and industrial properties. Our group's efforts are spread far and wide across the country with footprints in Mumbai, Thane, Pune, Delhi, Bangalore, Hyderabad and Nagpur.<br>
+        A unique characteristic of mittal Builders is that at any given point, we cater to all strata's of society, offering housing opportunities to the lower and middle income groups as well as the elite.Having developed over 50 million square feet in more than 2000 buildings, the Mittal Builders have premium value associated with their name. Many of our buildings stand as landmarks in their own right. Blessed with incredible<br>
+        <span class="black13">Journey & Philosophy</span><br>
+        Enterprising as being in the age of &quot;pagadi&quot; (tenancy), we were the first to offer housing for sale in the country. Through generations now, we have carried on our tradition for outstanding quality, use of world class </div>
+      </p>
+    </div>
+  </div>
+  <div id="overview_right2">
+  <div id="big_gallery"><a href="slide.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','../images/small_screen_1.png',0)"><img src="../images/small_screen.png" name="Image46" width="40" height="26" id="Image46" style="border:none;"></a></div>
+  <div id="productprice_box1">
+  <div id="gallery" class="ad-gallery">
+    <div class="ad-image-wrapper"></div>
+    <div class="ad-nav">
+      <div class="ad-thumbs">
+        <ul class="ad-thumb-list">
+          <li>
+            <a href="../images/slider/01.jpg">
+              <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+          <li>
+            <a href="../images/slider/02.jpg">
+              <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/03.jpg">
+             <img src="../images/slider/thum/t3.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/04.jpg">
+              <img src="../images/slider/thum/t4.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/05.jpg">
+              <img src="../images/slider/thum/t5.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/01.jpg">
+              <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/02.jpg">
+              <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </div></div></div>
+  <div id="clear"></div>
+  <div id="overview_bottom">
+  <div id="project_bottom_btn_new"><a href="BOOKLET.pdf" target="_blank">E brochure</a></div>
+  <div id="project_bottom_btn">|</div>
+  <div id="project_bottom_btn_new"> <a class="group_ogm1"  href="../images/view_map.jpg" title="">View Map</a></div>
+  <div id="project_bottom_btn">|</div>
+  <div id="project_bottom_btn_new"> <a class="group_ogfp1"  href="../images/floor_plan1.jpg" title="">View Floor Plan</a>
+  <p style="display:none;"><a class="group_ogfp1"  href="../images/floor_plan2.jpg" title="">View Floor Plan2</a></p>
+  <p style="display:none;"><a class="group_ogfp1"  href="../images/floor_plan3.jpg" title="">View Floor Plan3</a></p></div></div>
+ </div> 
+ 
+ <div id="view22" class="tabcontent1">
+ <!------------------------------------------------------------> 
+ <div id="overview_left2a">
+  <div class="scroll-pane">
+    <p style="margin:0px; padding:0px;">
+      
+      <div style="float:left; width:100%; height:auto;" class="black16_d">MITTAL GRANDEUR</div><br>
+    <div style="float:left; width:100%; height:auto; margin:0 0 10px 0;" class="black16a_d">CUFFE PARADE, MUMBAI</div>
+    <div style="float:left; width:100%; height:auto; padding:0 0 15px 0;" class="grey13">
+      aaaaaaaaaaaaaaaaOver five decades ago the &quot;Mittal Brother's&quot;, saw a great opportunity in India's growth story. Mittal Builders were India's foremost developers to offer housing for sale in the country. Our Group is primarily involved in development and the sale & leasing of residential, commercial and industrial properties. Our group's efforts are spread far and wide across the country with footprints in Mumbai, Thane, Pune, Delhi, Bangalore, Hyderabad and Nagpur.<br>
+      A unique characteristic of mittal Builders is that at any given point, we cater to all strata's of society, offering housing opportunities to the lower and middle income groups as well as the elite.Having developed over 50 million square feet in more than 2000 buildings, the Mittal Builders have premium value associated with their name. Many of our buildings stand as landmarks in their own right. Blessed with incredible<br>
+      <span class="black13">Journey & Philosophy</span><br>
+      Enterprising as being in the age of &quot;pagadi&quot; (tenancy), we were the first to offer housing for sale in the country. Through generations now, we have carried on our tradition for outstanding quality, use of world class </div>
+    </p>
+    </div>
+ </div>
+  <div id="overview_right2">
+    <div id="big_gallery"><a href="slide.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','../images/small_screen_1.png',0)"><img src="../images/small_screen.png" name="Image46" width="40" height="26" id="Image46" style="border:none;"></a></div>
+    <div id="productprice_box1">
+      <div id="gallery" class="ad-gallery">
+        <div class="ad-image-wrapper"></div>
+        <div class="ad-nav">
+          <div class="ad-thumbs">
+            <ul class="ad-thumb-list">
+              <li>
+                <a href="../images/slider/01.jpg">
+                  <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/02.jpg">
+                  <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/03.jpg">
+                  <img src="../images/slider/thum/t3.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/04.jpg">
+                  <img src="../images/slider/thum/t4.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/05.jpg">
+                  <img src="../images/slider/thum/t5.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/01.jpg">
+                  <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/02.jpg">
+                  <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </div></div></div>
+  <div id="clear"></div>
+  <div id="overview_bottom">
+    <div id="project_bottom_btn_new"><a href="BOOKLET.pdf" target="_blank">E brochure</a></div>
+    <div id="project_bottom_btn">|</div>
+    <div id="project_bottom_btn_new"> <a class="group_ogm2"  href="../images/view_map.jpg" title="">View Map</a></div>
+    <div id="project_bottom_btn">|</div>
+    <div id="project_bottom_btn_new"> <a class="group_fp2"  href="../images/floor_plan1.jpg" title="">View Floor Plan</a>
+      <p style="display:none;"><a class="group_fp2"  href="../images/floor_plan2.jpg" title="">View Floor Plan2</a></p>
+      <p style="display:none;"><a class="group_fp2"  href="../images/floor_plan3.jpg" title="">View Floor Plan3</a></p></div></div>
+ 
+</div>
+  
+</div>
+<!--------------------------------------------------Ongoing box end here-------------------------------------------->
+
+
+
+<!--------------------------------------------------Complete box start here------------------------------------------->
+
+<div id="big_box_right3" class="tabcontents1">
+<div id="view111" class="tabcontent3">
+<div id="overview_left2a">
+<div class="scroll-pane">
+      <p style="margin:0px; padding:0px;">
+      
+      <div style="float:left; width:100%; height:auto;" class="black16_d">MITTAL GRANDEUR</div><br>
+      <div style="float:left; width:100%; height:auto; margin:0 0 10px 0;" class="black16a_d">CUFFE PARADE, MUMBAI</div>
+      <div style="float:left; width:100%; height:auto; padding:0 0 15px 0;" class="grey13">
+ Over five decades ago the &quot;Mittal Brother's&quot;, saw a great opportunity in India's growth story. Mittal Builders were India's foremost developers to offer housing for sale in the country. Our Group is primarily involved in development and the sale & leasing of residential, commercial and industrial properties. Our group's efforts are spread far and wide across the country with footprints in Mumbai, Thane, Pune, Delhi, Bangalore, Hyderabad and Nagpur.<br>
+        A unique characteristic of mittal Builders is that at any given point, we cater to all strata's of society, offering housing opportunities to the lower and middle income groups as well as the elite.Having developed over 50 million square feet in more than 2000 buildings, the Mittal Builders have premium value associated with their name. Many of our buildings stand as landmarks in their own right. Blessed with incredible<br>
+        <span class="black13">Journey & Philosophy</span><br>
+        Enterprising as being in the age of &quot;pagadi&quot; (tenancy), we were the first to offer housing for sale in the country. Through generations now, we have carried on our tradition for outstanding quality, use of world class </div>
+      </p>
+    </div>
+  </div>
+  <div id="overview_right2">
+  <div id="big_gallery"><a href="slide.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','../images/small_screen_1.png',0)"><img src="../images/small_screen.png" name="Image46" width="40" height="26" id="Image46" style="border:none;"></a></div>
+  <div id="productprice_box1">
+  <div id="gallery" class="ad-gallery">
+    <div class="ad-image-wrapper"></div>
+    <div class="ad-nav">
+      <div class="ad-thumbs">
+        <ul class="ad-thumb-list">
+          <li>
+            <a href="../images/slider/01.jpg">
+              <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+          <li>
+            <a href="../images/slider/02.jpg">
+              <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/03.jpg">
+             <img src="../images/slider/thum/t3.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/04.jpg">
+              <img src="../images/slider/thum/t4.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/05.jpg">
+              <img src="../images/slider/thum/t5.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/01.jpg">
+              <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+            <li>
+            <a href="../images/slider/02.jpg">
+              <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    </div></div></div>
+  <div id="clear"></div>
+  <div id="overview_bottom">
+  <div id="project_bottom_btn_new"><a href="BOOKLET.pdf" target="_blank">E brochure</a></div>
+  <div id="project_bottom_btn">|</div>
+  <div id="project_bottom_btn_new"> <a class="group_com1"  href="../images/view_map.jpg" title="">View Map</a></div>
+  <div id="project_bottom_btn">|</div>
+  <div id="project_bottom_btn_new"> <a class="group_cofp1"  href="../images/floor_plan1.jpg" title="">View Floor Plan</a>
+  <p style="display:none;"><a class="group_cofp1"  href="../images/floor_plan2.jpg" title="">View Floor Plan2</a></p>
+  <p style="display:none;"><a class="group_cofp1"  href="../images/floor_plan3.jpg" title="">View Floor Plan3</a></p></div></div>
+ </div> 
+ 
+ <div id="view222" class="tabcontent3">
+ <!------------------------------------------------------------> 
+ <div id="overview_left2a">
+  <div class="scroll-pane">
+    <p style="margin:0px; padding:0px;">
+      
+      <div style="float:left; width:100%; height:auto;" class="black16_d">MITTAL GRANDEUR</div><br>
+    <div style="float:left; width:100%; height:auto; margin:0 0 10px 0;" class="black16a_d">CUFFE PARADE, MUMBAI</div>
+    <div style="float:left; width:100%; height:auto; padding:0 0 15px 0;" class="grey13">
+      aaaaaaaaaaaaaaaaOver five decades ago the &quot;Mittal Brother's&quot;, saw a great opportunity in India's growth story. Mittal Builders were India's foremost developers to offer housing for sale in the country. Our Group is primarily involved in development and the sale & leasing of residential, commercial and industrial properties. Our group's efforts are spread far and wide across the country with footprints in Mumbai, Thane, Pune, Delhi, Bangalore, Hyderabad and Nagpur.<br>
+      A unique characteristic of mittal Builders is that at any given point, we cater to all strata's of society, offering housing opportunities to the lower and middle income groups as well as the elite.Having developed over 50 million square feet in more than 2000 buildings, the Mittal Builders have premium value associated with their name. Many of our buildings stand as landmarks in their own right. Blessed with incredible<br>
+      <span class="black13">Journey & Philosophy</span><br>
+      Enterprising as being in the age of &quot;pagadi&quot; (tenancy), we were the first to offer housing for sale in the country. Through generations now, we have carried on our tradition for outstanding quality, use of world class </div>
+    </p>
+    </div>
+ </div>
+  <div id="overview_right2">
+    <div id="big_gallery"><a href="slide.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image46','','../images/small_screen_1.png',0)"><img src="../images/small_screen.png" name="Image46" width="40" height="26" id="Image46" style="border:none;"></a></div>
+    <div id="productprice_box1">
+      <div id="gallery" class="ad-gallery">
+        <div class="ad-image-wrapper"></div>
+        <div class="ad-nav">
+          <div class="ad-thumbs">
+            <ul class="ad-thumb-list">
+              <li>
+                <a href="../images/slider/01.jpg">
+                  <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/02.jpg">
+                  <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/03.jpg">
+                  <img src="../images/slider/thum/t3.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/04.jpg">
+                  <img src="../images/slider/thum/t4.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/05.jpg">
+                  <img src="../images/slider/thum/t5.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/01.jpg">
+                  <img src="../images/slider/thum/t1.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              <li>
+                <a href="../images/slider/02.jpg">
+                  <img src="../images/slider/thum/t2.jpg"alt="" width="70" height="40"class="image8" title=""  style="border:none;">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </div></div></div>
+  <div id="clear"></div>
+  <div id="overview_bottom">
+    <div id="project_bottom_btn_new"><a href="BOOKLET.pdf" target="_blank">E brochure</a></div>
+    <div id="project_bottom_btn">|</div>
+    <div id="project_bottom_btn_new"> <a class="group_com2"  href="../images/view_map.jpg" title="">View Map</a></div>
+    <div id="project_bottom_btn">|</div>
+    <div id="project_bottom_btn_new"> <a class="group_cofp2"  href="../images/floor_plan1.jpg" title="">View Floor Plan</a>
+      <p style="display:none;"><a class="group_cofp2"  href="../images/floor_plan2.jpg" title="">View Floor Plan2</a></p>
+      <p style="display:none;"><a class="group_cofp2"  href="../images/floor_plan3.jpg" title="">View Floor Plan3</a></p></div></div>
+ 
+</div>
+  
+</div>
+
+<!--------------------------------------------------Complete box end here-------------------------------------------->
+
+
+</div>
+        
+        
+        
+        </div>
+        </div>
+      
+      <div id="item3" class="item">
+        <a name="item3"></a>
+        <div class="content">
+         
+        
+        <div id="overview_main_h2">
+        Hospitality Data will come here
+        </div>
+        
+        </div>
+        </div>
+      
+      <div id="item4" class="item">
+        <a name="item4"></a>
+        <div class="content">
+        
+        
+        
+        <div id="overview_main_b2">
+        Township Data will come here
+        </div>
+        
+        </div>
+        </div>
+      
+      <div id="item5" class="item">
+        <a name="item5"></a>
+        <div class="content">
+        
+        
+        <div id="overview_main_s2">
+        <iframe src="social2.html" frameborder="0" allowtransparency="true" width="900px" height="320px;"></iframe>
+        </div>
+        
+        </div>
+        </div>
+      
+      
+      
+      </div>
+  </div>
+</div>
+<div id="footer" style="position:fixed;">
+  <div id="footer_link" class="footer_link"><a href="#">Site Map</a>&nbsp; | &nbsp;<a href="#">Legal Disclamer</a><br>
+COPYRIGHT © 2012. ALL RIGHTS RESERVED.&nbsp; | &nbsp;Designed by <a href="http://www.skarma.com/" target="_blank">skarma.com</a></div>
+  <div id="footer_icon">
+  <div id="fb"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','../images/fb2.png',1)"><img src="../images/fb1.png" width="26" height="26" id="Image2" style="border:none"></a></div><div id="foot_devide" style="margin:0 2px 0 2px;"><img src="../images/footer_devide.png" width="2" height="26"></div>
+  <div id="fb"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','../images/tw2.png',1)"><img src="../images/tw1.png" width="26" height="26" id="Image3" style="border:none"></a></div><div id="foot_devide" style="margin:0 6px 0 2px;"><img src="../images/footer_devide.png" width="2" height="26"></div>
+  <div id="fb"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','../images/email2.png',1)"><img src="../images/email1.png" width="26" height="26" id="Image4" style="border:none"></a></div>
+  </div>
+  
+</div>
+<script type="text/javascript">
+	var menu=new menu.dd("menu");
+	menu.init("menu3","menuhover");
+</script>
+
+</body>
+</html>
